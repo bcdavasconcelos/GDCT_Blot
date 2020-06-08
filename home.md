@@ -13,6 +13,7 @@ permalink: /
 * [Extraindo textos do TLG](Extraindo-textos-do-TLG)
 * [Códigos do TLG](cod-tlg)
 * [Códigos do TLG com links](cod-tlg-link)
+* [Filósofos do período arcaico/Pré-socráticos](presocraticos)
 * [Salvando páginas do Diogenes nos favoritos](pag-diog)
 * [Repositórios de material digitalizado](digitalizados)
 * [Clássicos digitais](classicos)

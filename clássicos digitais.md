@@ -4,7 +4,7 @@ permalink: /classicos
 # Clássicos digitais  
   
 * [Perseus Catalog](https://catalog.perseus.org/browse) *Catálogo de textos do Perseus*  
-* [TextCritical](https://textcritical.net/) *Textos clássicos em formato mobi e epub para leitores de eBooks*  
+* [TextCritical](https://textcritical.net/) *Textos clássicos em formato mobi e epub para eReaders*  
 * [The Gamera Project](https://gamera.informatik.hsnr.de/addons/greekocr4gamera/index.html) *OCR de textos gregos*  
 * [Greek Hexameter Analysis](http://www.thesaurus.flf.vu.lt/eiledara/index.php) *Análise por computador da métrica dos versos em grego antigo*  
 * [Classical Language Toolkit](http://docs.cltk.org/en/latest/index.html) *Um projeto com potencial enorme.*  
