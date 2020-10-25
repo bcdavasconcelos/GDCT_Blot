@@ -1,4 +1,6 @@
 tags: automação, macOS
+hashtags: #automação, #macOS
+permalink: /karabiner
 
 # Karabiner  
   

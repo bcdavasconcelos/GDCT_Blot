@@ -1,4 +1,5 @@
 tags: Apps, macOS
+permalink: /bbedit
 
 # BBEdit
 

@@ -4,7 +4,7 @@ permalink: /archai
 
 Para a III Summer School Archai e XVII Seminário Internacional Archai: Novas Agendas para os Estudos Clássicos: Raça e Ecologia, que deveria ter sido realizado nos dias 16 a 20 de março de 2020, na Universidade de Brasília, estava previsto o curso do "Guia Digital de Verão do Classicista dos Trópicos" com Bernardo C. D. A. Vasconcelos (UFMG) & Gustavo L. Gomes (UFMG/UnB). 
 
-Depois de fazer os devidos ajustes - e de lavar bem as mãos - temos o prazer de convida-los para o curso do "Guia Digital do Classicista em Distanciamento Social" a ser realizado virtualmente nos dias 9 e 23 de Abril, das 15 às 17h, via plataforma Webex (a ser confirmado).
+Depois de fazer os devidos ajustes - e de lavar bem as mãos - temos o prazer de convida-los para o curso do "Guia Digital do Classicista em Distanciamento Social" a ser realizado virtualmente nos dias **9 e 23 de Abril**, das 15 às 17h, via plataforma Webex (a ser confirmado).
 
 Programas de pós-graduação em outras áreas frequentemente oferecem cursos de verão para capacitar alunos e professores no uso de ferramentas de pesquisa. Na filosofia e nos estudos clássicos frequentemente opera-se a partir do pressuposto de que não há tal necessidade: basta saber abrir arquivos em PDF e usar um editor de texto. 
 

@@ -1,8 +1,10 @@
 tags: Organização, Apps, macOS  
+hashtags: #Organização, #Apps, #macOS  
+permalink: /tinderbox
 
 # Tinderbox  
   
-![Tinderbox](/Imagens/Tind.png)  
+![Tinderbox](./img/apps/Tind.png)  
   
   
 **🕸️** [Tinderbox](http://www.eastgate.com) () *Um software com diversas funcionalidades. A principal característica do Tinderbox é não forçar o uso de uma estrutura predeterminada. Isso significa muita liberdade, mas também a necessidade de estudar o software e aprender os pressupostos envolvidos no seu funcionamento. Esteja preparado para despender algumas horas de estudo sobre o programa.*  

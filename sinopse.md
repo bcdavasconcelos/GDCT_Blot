@@ -1,4 +1,6 @@
 tags: Escrita, Organização, Apps  
+hashtags: #Escrita, #Organização, #Apps  
+permalink: /sinopse
 
 # Sinopse  
 
