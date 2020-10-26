@@ -58,7 +58,9 @@ Parágrafo B[^Segunda nota de rodapé.]
 Parágrafo C[^Terceira nota de rodapé.]
 ```
 
-Isso pode ser feito utilizando o script abaixo. Para utiliza-lo, salve o código como um arquivo de texto utilizando `py` como extensão (e.g. `inliner.py`)[^2]. Para utilizar o script, abra o shell/terminal e navegue até a pasta do script. Dê o seguinte comando:
+Isso pode ser feito utilizando o script abaixo. Para utiliza-lo, você precisará ter instalado o [Python 3](https://www.python.org/downloads/).
+
+Salve o código como um arquivo de texto com a extensão `py` (e.g. `inliner.py`)[^2]. Abra o shell/terminal e navegue até a pasta do script. Dê o seguinte comando:
 
 ```bash
 python inliner.py [input.markdown] [output.markdown]
@@ -66,10 +68,11 @@ python inliner.py [input.markdown] [output.markdown]
 
 Faça isso substituindo [input.markdown] pelo caminho até o arquivo que deve ser modificado e [output.markdown] pelo caminho e pelo nome do novo arquivo que deve ser gerado. 
 
-```
+### E.g.:
+
+```bash
 python inliner.py "~/Dropbox/Markdown/Arquivo1.md" "~/Dropbox/Markdown/Arquivo1Modificado.md"
 ```
-
 
 ## Script
 

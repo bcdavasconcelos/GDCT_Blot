@@ -6,6 +6,9 @@ permalink: /CSL-ABNT
 
 Esse é um estilo que adaptei para facilitar a citação de textos antigos utilizando o filtro CITEPROC do Pandoc. O arquivo do estilo pode ser baixado [nesse repositório do GitHub](https://github.com/bcdavasconcelos/CSL-ABNT-para-Autores-Antigos).
 
+
+![Esq: fonte | Dir: versão renderizada](./img/biblio.png)
+
 - Para citar a ed. Bekker (ed. crítica de referência que contém a numeração a a partir da qual o texto de Aristóteles é citado), utilizo o tipo `chapter`.
 - Para citar as demais edições críticas, utilizo o tipo `legislation`.
 - Para citar traduções modernas, utilizo o tipo `report`.
@@ -23,124 +26,30 @@ Para corrigir isso, fiz algumas modificações de modo a trazer para a citação
 
 
 ## Ed. crítica de referência (e.g. Bekker, Stephanus)
-**Justificativa:** Trazer a abreviação da obra para a citação em linha.  
-**Observação importante:** A abreviação da obra deve estar contida no campo `annote`.  
-**Tipo utilizado:** `chapter`  
+**Obj:** Trazer a abreviação da obra para a citação em linha.  
+**Obs.:** A abreviação da obra deve estar contida no campo `annote`.  
+**Tipo:** `chapter`  
 
-**Chave (ID) citada:** `@EN` | Exemplo com nr da pág: `@EN 1025b09`  
-**Como aparece a citação em linha:** `EN` | `EN 1025b09`  
-**Como aparece na bibliografia:** `ARISTÓTELES. “Ethica Nicomachea”. In: BEKKER, I. (Ed). Aristotelis Opera. Berlim: Reimer, 1831. (1094a01–1181b23).`   
-
-**Exemplo de referência (em formato json):**  
-```json
-  {
-    "annote": "EN",
-    "author": [
-      {
-        "family": "Aristóteles"
-      }
-    ],
-    "container-title": "Aristotelis opera",
-    "editor": [
-      {
-        "family": "Bekker",
-        "given": "Immanuel"
-      }
-    ],
-    "id": "EN",
-    "issued": {
-      "date-parts": [
-        [
-          1831
-        ]
-      ]
-    },
-    "page": "1094a01-1181b23",
-    "publisher": "Reimer",
-    "publisher-place": "Berlim",
-    "title": "Ethica nicomachea",
-    "type": "chapter"
-  }
-```
+**Citekey:** `@EN` | Exemplo com nr da pág: `@EN 1025b09`  
+**Cit em linha:** `EN` | `EN 1025b09`  
+**Ref:** `ARISTÓTELES. “Ethica Nicomachea”. In: BEKKER, I. (Ed). Aristotelis Opera. Berlim: Reimer, 1831. (1094a01–1181b23).`   
 
 
 ## Demais edições críticas
-**Justificativa:** Trazer o nome do editor para a citação em linha.  
-**Tipo utilizado:** `report`  
+**Obj:** Trazer o nome do editor para a citação em linha.  
+**Tipo:** `report`  
 
-**Chave (ID) citada:** `@EN_Bywater`  
-**Como aparece a citação em linha:** `BYWATER 1900`   
-**Como aparece na bibliografia:** `ARISTÓTELES. Ethica Nicomachea (I. Bywater, Ed.). Oxford: Clarendon, 1890.`  
-
-**Exemplo de referência (em formato json):**  
-```json
-  {
-    "author": [
-      {
-        "family": "Aristóteles"
-      }
-    ],
-    "editor": [
-      {
-        "family": "Bywater",
-        "given": "Ingram"
-      }
-    ],
-    "id": "EN_Bywater",
-    "issued": {
-      "date-parts": [
-        [
-          1890
-        ]
-      ]
-    },
-    "page": "1094a1-1181b23",
-    "publisher": "Clarendon",
-    "publisher-place": "Oxford",
-    "title": "Ethica nicomachea",
-    "type": "legislation"
-  }
-  ```
-
+**Citekey:** `@EN_Bywater`  
+**Cit em linha:** `BYWATER 1900`   
+**Ref:** `ARISTÓTELES. Ethica Nicomachea (I. Bywater, Ed.). Oxford: Clarendon, 1890.`  
 
 ## Traduções modernas
+**Obj:** Trazer o nome do tradutor para a citação em linha.  
+**Tipo:** `report`  
 
-**Justificativa:** Trazer o nome do tradutor para a citação em linha.  
-**Tipo utilizado:** `report`  
-
-**Chave (ID) citada:** `@EN_Reeve` | Exemplo com número da página `@EN_Reeve, p.10`   
-**Como aparece a citação em linha:** `REEVE 2014` | `REEVE 2014, p.10`  
-**Como aparece na bibliografia:** `ARISTÓTELES. Nicomachean ethics. Tradução: C. D. C. Reeve. Indianápolis: Hackett, 2014.`
-
-**Exemplo de referência (em formato json):**  
-```json
-  {
-    "author": [
-      {
-        "family": "Aristóteles"
-      }
-    ],
-    "id": "EN_Reeve",
-    "issued": {
-      "date-parts": [
-        [
-          2014
-        ]
-      ]
-    },
-    "publisher": "Hackett",
-    "publisher-place": "Indianápolis",
-    "title": "Nicomachean ethics",
-    "translator": [
-      {
-        "family": "Reeve",
-        "given": "C. D. C."
-      }
-    ],
-    "type": "report"
-  }
-```
-
+**Citekey:** `@EN_Reeve` | Exemplo com número da página `@EN_Reeve, p.10`   
+**Cit em linha:** `REEVE 2014` | `REEVE 2014, p.10`  
+**Ref:** `ARISTÓTELES. Nicomachean ethics. Tradução: C. D. C. Reeve. Indianápolis: Hackett, 2014.`
 
 # Instruções
 
@@ -172,6 +81,96 @@ Acrescento, portanto:
 "--bibliography=$HOME/Dropbox/Scrivener/workflow-mmd/refs/All.json"
 ```
 
-# Zotero
+## Zotero
 
 Essa possibilidade **não foi testada**, mas, em princípio, esse arquivo CSL pode ser utilizado com o Zotero no Microsoft Word ou em algum outro processador de texto qualquer. 
+
+
+# Exemplo de referência (em formato json):
+
+```json
+  {
+    "annote": "EN",
+    "author": [
+      {
+        "family": "Aristóteles"
+      }
+    ],
+    "container-title": "Aristotelis opera",
+    "editor": [
+      {
+        "family": "Bekker",
+        "given": "Immanuel"
+      }
+    ],
+    "id": "EN",
+    "issued": {
+      "date-parts": [
+        [
+          1831
+        ]
+      ]
+    },
+    "page": "1094a01-1181b23",
+    "publisher": "Reimer",
+    "publisher-place": "Berlim",
+    "title": "Ethica nicomachea",
+    "type": "chapter"
+  }
+```
+
+```json
+  {
+    "author": [
+      {
+        "family": "Aristóteles"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Bywater",
+        "given": "Ingram"
+      }
+    ],
+    "id": "EN_Bywater",
+    "issued": {
+      "date-parts": [
+        [
+          1890
+        ]
+      ]
+    },
+    "page": "1094a1-1181b23",
+    "publisher": "Clarendon",
+    "publisher-place": "Oxford",
+    "title": "Ethica nicomachea",
+    "type": "legislation"
+  }
+  ```
+```json
+  {
+    "author": [
+      {
+        "family": "Aristóteles"
+      }
+    ],
+    "id": "EN_Reeve",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "Hackett",
+    "publisher-place": "Indianápolis",
+    "title": "Nicomachean ethics",
+    "translator": [
+      {
+        "family": "Reeve",
+        "given": "C. D. C."
+      }
+    ],
+    "type": "report"
+  }
+```
