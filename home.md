@@ -2,26 +2,28 @@ tags: index
 permalink: /home
 
 # GDCT
-- [Minicurso Archai / UnB - 9 e 23/4/2020](archai)  
-	- [Prezi: Minicurso Archai - Aula 1 em 9/04/2020](https://prezi.com/p/36gy_bivht4o/?present=1)  
-	- [Vídeo: Minicurso Archai - Aula 2 em 23/04/2020](https://youtu.be/_EANXtdH5V0)
-- Grupo do Telegram: [ὁμιλεῖτε ἑλληνικά;](https://t.me/joinchat/Ao6qvFlCqZu49UTYxLRC3Q)  
+
+- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
+- Grupo de discussão "[ὁμιλεῖτε ἑλληνικά;](https://t.me/joinchat/Ao6qvFlCqZu49UTYxLRC3Q)" no aplicativo Telegram.  
+- [2020/1 Minicurso Archai (UnB)](2020-1-archai)  
+
 
 # Bibliografia
 
-## Fontes primárias 
-- [Thesaurus Linguae Graecae](tlg-intro)
-- [Extraindo textos do TLG](extraindo-textos-do-tlg)
-- [Códigos do TLG](cod-tlg)
-- [Códigos do TLG com links](cod-tlg-link)
+## Fontes primárias
+- [*Thesaurus Linguae Graecae*](/tlg-intro)
+- [Convertendo textos do TLG](tlg-betacode)
+- [Códigos do TLG](tlg-ref)
+- [Códigos do TLG com links](tlg-ref-link)
 - [Filósofos do período arcaico/Pré-socráticos](filosofia-arcaica)
 - [Salvando páginas do Diogenes nos favoritos](diogenes-favoritos)
 - [Repositórios de material digitalizado](bib-digitalizada)
 - [Clássicos digitais](digital-classics)
 
 ## Fontes secundárias
-- [Encontrando bibliografia relevante](bib-pesquisa)
-- [Driblando questões de acesso](bib-acesso)
+- [Gerenciadores bibliográficos](bib-managers)
+- [Indexadores de referências bibliográficas](bib-pesquisa)
+- [Driblando questões de acesso à bibliografia secundária](bib-acesso)
 
 ## Recursos filológicos
 - [Fontes tipográficas](fontes-tipograficas)
@@ -42,7 +44,6 @@ permalink: /home
 - [Editores de texto](editores-de-texto)
 - [Editores de markdown](markdown-editores)
 - [Processadores de texto](processadores-de-texto)
-- [Gerenciadores de referências](bib-managers)
 - [Pandoc](Pandoc)
 
 ## Estratégia para lidar com o conteúdo da pesquisa

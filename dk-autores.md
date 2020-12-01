@@ -139,5 +139,5 @@ Atenção: o DIOGENES precisa estar rodando e com o banco de dados devidamente c
 | 0595.002 | Zeno | 0595 | Fragmenta | 002 | [TLG Online](http://stephanus.tlg.uci.edu/Iris/indiv/browser.jsp#doc=tlg&aid=0595&wid=002&st=0) | [Diogenes](http://localhost:8888/Diogenes.cgi?JumpTo=&JumpFromQuery=&JumpFromLang=&JumpFromAction=&level_3=0&level_2=0&level_1=0&level_0=0&submit=Show+me+this+passage&JumpFromLangXXstate=&JumpToXXstate=&actionXXstate=browse&authorXXstate=0595&corpusXXstate=TLG+Texts&current_pageXXstate=browser_passage&workXXstate=002&goXXstate=Go&submitXXstate=Find+a+passage+in+this+work&splashXXstate=true&typeXXstate=TLG+Texts&short_typeXXstate=tlg) |
 
 Veja também:
-- [Códigos do TLG com links para o TLG Online, Diogenes & Perseus Catalog](cod-tlg-link)
+- [Códigos do TLG com links para o TLG Online, Diogenes & Perseus Catalog](tlg-ref-link)
 - [Como funcionam os links do TLG nessa página?](tlg-links)

@@ -1,4 +1,4 @@
-tags: Bibliografia Primária, Aristóteles
+tags: Fontes primárias, Aristóteles
 hashtags: #Fontes-primárias, #Aristóteles
 permalink: /cag-trad
 
@@ -27,7 +27,7 @@ permalink: /cag-trad
 - Simplicius, On Aristotle on the Void. Translated by J. O. Urmson. London: Duckworth, 1994  
 - Simplicius. On Aristotle Physics 7. Translated by C. Hagen. London: Duckworth, 1994  
 - Philoponus. On Aristotle Physics 3. Translated by M. Edwards . London: Duckworth, 1994  
-- Simplicius. On Aristotle On the Soul 1.1-2.4. Translated by J. O. Urmson & P. Lautner. London: Duckworth, 1995 
+- Simplicius. On Aristotle On the Soul 1.1-2.4. Translated by J. O. Urmson & P. Lautner. London: Duckworth, 1995
 - Ammonius. On Aristotle On Interpretation 1-8. Translated by D. Blank. London: Duckworth, 1996  
 - Alexander. On Aristotle Meteorology 4. Translated by E. Lewis. London: Duckworth, 1996  
 - Themistius. On Aristotle on the Soul. Translated by R. B. Todd. London: Duckworth, 1996  
@@ -126,4 +126,4 @@ permalink: /cag-trad
 - Iamblichus. On the Science of Mathematics. Translated by J. Dillon & J. O. Urmson. London: Bloomsbury, 2020  
 - Alexander. On Aristotle Topics 2. Translated by L. Castelli. London: Bloomsbury, 2020  
 - Themistius. On Aristotle Metaphysics 12. Translated by Y. Mayrav. London: Bloomsbury, 2020  
-- 'Alexander'. On Aristotle Metaphysics 12. Translated by F. Miller. London: Bloomsbury, 2021 
+- 'Alexander'. On Aristotle Metaphysics 12. Translated by F. Miller. London: Bloomsbury, 2021

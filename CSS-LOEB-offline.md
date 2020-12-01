@@ -1,13 +1,13 @@
 permalink: /css-loeb
-hashtags: #CSS, #Fontes-primárias 
-tags: Bibliografia Primária, CSS
+hashtags: #CSS, #Fontes-primárias
+tags: Fontes primárias, CSS
 
 # Modificações para o site da LOEB
 
 
 Se você usa o site da LOEB Classical Library, sobretudo offline, eis algumas alterações que podem tornar a experiência de ler, navegar e consultar os textos um pouco mais agradável. Para adicioná-las ao site, basta usar extensões para o navegador como o Stylus ou o Cascadea.
 
-```css
+```language-css
 
 /* Remover o header com a logo, How to Subscribe, Contact Us, etc. */
 #headerWrap{
@@ -27,7 +27,7 @@ display:none!important;
 
 /* Remove a toolbar com ferramentas de anotação que não funcionam no modo offline */
 #contentToolbar,
-#contentToolbox{	
+#contentToolbox{
 display:none!important;
 }
 

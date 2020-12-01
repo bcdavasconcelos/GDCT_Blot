@@ -1,0 +1,166 @@
+permalink: /teste
+
+
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse">
+  <tbody>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px "><b>Encontro</b></p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px "><b>Tema</b></p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px "><b>Detalhamento</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 1 01/12/2020</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Fontes primárias I</p>
+      </td>
+      <td rowspan="2" valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">A evolução dos textos antigos e a construção das novas edições digitais do terceiro milênio; introdução aos projetos de clássicos digitais</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 2 15/12/2020</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Fontes primárias II</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 3 05/01/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Fontes secundárias I</p>
+      </td>
+      <td rowspan="2" valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Indexadores, acesso aos textos e os gerenciadores bibliográficos</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 4 12/01/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Fontes secundárias II</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 5 19/01/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Recursos filológicos I</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px "><i>Treebanking </i>com <a href="https://bv.fapesp.br/pt/pesquisador/178426/anise-de-abreu-goncalves-dorange-ferreira/">Anise Ferreira</a> (UNESP)</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 6 26/01/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Recursos filológicos II</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Ferramentas para estudar e trabalhar com línguas estrangeiras</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 7 02/02/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Texto e hipertexto I</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Processadores de texto (<a href="https://pt.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 8 09/02/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Texto e hipertexto II</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Wikis pessoais</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 9 23/02/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Texto e hipertexto III</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Wikis pessoais com <a href="http://lattes.cnpq.br/2284746616325338">Gustavo Gomes</a> (UFMG)</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 10 02/03/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Texto e hipertexto IV</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Processadores de texto</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 11 09/03/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Tema optativo I</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">—</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 12 16/03/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Tema optativo II</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">—</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 13 23/03/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Tema optativo III</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">—</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" style="width: 68.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Aula 14 30/03/2021</p>
+      </td>
+      <td valign="middle" style="width: 128.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">Tema optativo IV</p>
+      </td>
+      <td valign="middle" style="width: 437.0px; padding: 0.0px 5.0px 0.0px 5.0px">
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px ">—</p>
+      </td>
+    </tr>
+  </tbody>
+</table>

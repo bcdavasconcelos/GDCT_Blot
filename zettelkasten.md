@@ -8,12 +8,12 @@ hashtags: #Organização, #Apps
 *Atualizado em 2020-04-13-21-45-47*
 
 ![](./img/zk/zk01.png)
-  
-A expressão `Caixa fichário` é uma tradução (voluntariosa, talvez, mas certamente plausível) para a expressão *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas.[^1] Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?![](./img/zk/zk02.png)
-  
+
+A expressão "Caixa fichário" é uma tradução de *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas.[^1] Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?![](./img/zk/zk02.png)
+
 Normalmente as *teses* e ideias que encontramos na bibliografia secundária, e mesmo em nossas anotações, se encontram condensadas e articuladas em um texto ou fio argumentativo. Para criar novas associações e forjar novas relações entre conceitos, o primeiro passo é praticar a **divisão**.
-  
-  
+
+
 ![](./img/zk/zk03.png)
 
 Com as ideias atomizadas em fichas, e removidas do seu contexto de origem, há uma ampla margem para a construção de diferentes formas de vinculação com outras ideias. Dizendo de outro modo, podemos praticar a **reunião** de diferentes modos: alguns diretos outros indiretos.  
@@ -26,13 +26,13 @@ Um segundo modo possível de associação, também indireto, desconsidera a limi
 
 ![](./img/zk/zk05.png)
 
-Um terceiro modo, por fim, são os **links diretos** entre ideias dentro do nosso sistema. Novamente, aqui não há limites para o número de ligações possíveis entre as fichas. 
+Um terceiro modo, por fim, são os **links diretos** entre ideias dentro do nosso sistema. Novamente, aqui não há limites para o número de ligações possíveis entre as fichas.
 
 
 ![](./img/zk/zk06.png)
 
 
-Mas é claro que para que essas ligações sejam possíveis, é preciso que haja um sistema de endereçamento das fichas que torne possível referencia-las e incluí-las em diferentes etiquetas ou ligações diretas. Dizendo de outro modo, tudo dentro do sistema precisa de um endereço fixo que não sofrerá nenhum tipo de alteração com o decorrer do tempo de modo a não romper qualquer ligação existente. 
+Mas é claro que para que essas ligações sejam possíveis, é preciso que haja um sistema de endereçamento das fichas que torne possível referencia-las e incluí-las em diferentes etiquetas ou ligações diretas. Dizendo de outro modo, tudo dentro do sistema precisa de um endereço fixo que não sofrerá nenhum tipo de alteração com o decorrer do tempo de modo a não romper qualquer ligação existente.
 
 ## Pastas, etiquetas e links na caixa fichário
 
@@ -42,7 +42,7 @@ Nesse método de trabalho baseado em anotações em fichas concretas, como era o
 ![](./img/zk/zk07.png)
 
 
-Sempre que possível, uma nota será incluída atrás de uma outra nota existente com a qual dialogue. Se já houver uma outra nota atrás que continue a sequência, sem problemas, ela pode ser adicionada como um subitem na numeração (`1, 2, 2a, 3, 4, 4a, 4b, 5`). Quando não for possível, por ela não dialogar com nenhuma outra nota existente, ela entra no fim da sequência. 
+Sempre que possível, uma nota será incluída atrás de uma outra nota existente com a qual dialogue. Se já houver uma outra nota atrás que continue a sequência, sem problemas, ela pode ser adicionada como um subitem na numeração (`1, 2, 2a, 3, 4, 4a, 4b, 5`). Quando não for possível, por ela não dialogar com nenhuma outra nota existente, ela entra no fim da sequência.
 
 ![](./img/zk/zk08.png)
 
@@ -67,9 +67,9 @@ Os dois outros modos de associação entre fichas descritos anteriormente aparec
 
 Pela descrição e pelas imagens, fica claro como o método da caixa fichário serve para criar novas redes neurais com um aspecto profundamente orgânico: os fios são potencialmente infindáveis e de tamanhos variados. Certos agrupamentos são coesos, outros caóticos e para várias fichas talvez ainda não haja mais de um agrupamento possível. Todas essas característica são, na visão de Luhmann, elementos da individualidade da nossa caixa fichário como parceira de conversa. Não há uma simples aplicação de critérios e categorias exógenas para estruturar a caixa; ao invés, todo e qualquer princípio de organização deve emergir a partir das necessidades impostas pelo próprio conteúdo.
 
-A esse respeito é importante observar que Luhmann nunca modificava a posição ou o endereço de uma ficha. Sempre que uma nova estrutura emergia do conteúdo, dando origem a novos critérios de organização ou ordenamento, ele produzia uma nova ficha indexando os endereços e registrando a racionalidade por trás daquela relação. A ideia por trás desse procedimento é a de que todas estruturas emergentes são temporárias e sujeitas a modificações, de modo que não faria sentido reorganizar todo o conteúdo da caixa fichário e permanecer sempre preso àquela estrutura. A organização em pastas é, portanto, uma forma de organização mais ou menos fixa (exceto pela possibilidade de adicionar novas fichas). 
+A esse respeito é importante observar que Luhmann nunca modificava a posição ou o endereço de uma ficha. Sempre que uma nova estrutura emergia do conteúdo, dando origem a novos critérios de organização ou ordenamento, ele produzia uma nova ficha indexando os endereços e registrando a racionalidade por trás daquela relação. A ideia por trás desse procedimento é a de que todas estruturas emergentes são temporárias e sujeitas a modificações, de modo que não faria sentido reorganizar todo o conteúdo da caixa fichário e permanecer sempre preso àquela estrutura. A organização em pastas é, portanto, uma forma de organização mais ou menos fixa (exceto pela possibilidade de adicionar novas fichas).
 
-É com o passar dos anos, e depois da aquisição de uma massa crítica, que ela passa a ser verdadeiramente útil. Cada vez que buscarmos junto a ela elementos para explorar uma determinada questão, teremos assegurada uma possibilidade de um novo diálogo. À medida que o diálogo avança, novas perspectivas emergem e com elas novos princípios com capacidade de explicar e ordenar elementos previamente dispersos ou apenas indiretamente relacionados. 
+É com o passar dos anos, e depois da aquisição de uma massa crítica, que ela passa a ser verdadeiramente útil. Cada vez que buscarmos junto a ela elementos para explorar uma determinada questão, teremos assegurada uma possibilidade de um novo diálogo. À medida que o diálogo avança, novas perspectivas emergem e com elas novos princípios com capacidade de explicar e ordenar elementos previamente dispersos ou apenas indiretamente relacionados.
 
 Sobre as opções para construir uma caixa fichário digital, veja a página sobre as [Wikis](Wikis).
 
@@ -86,4 +86,3 @@ Sobre as opções para construir uma caixa fichário digital, veja a página sob
 # Créditos  
 
 Todas as imagens são de autoria de [David B. Clear](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125).
-

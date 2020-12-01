@@ -67,6 +67,17 @@ pandoc -s -f markdown SeuArquivo.md \
 
 <br>
 
+
+## Referências internas
+
+Para facilitar as referências internas, podemos utilizar um filtro chamado [Pandoc Secnos](https://github.com/tomduck/pandoc-secnos) parte do pacote [Xnos](https://github.com/tomduck/pandoc-xnos). Depois de instalar o filtro ([instruções estão no repositório do pacote no github](https://github.com/tomduck/pandoc-secnos#installation)), basta evocar a bandeira `--filter pandoc-secnos` no comando. Isso deve necessariamente acontecer ANTES dos comandos relacionados à bibliografia, listados abaixo.
+
+<br>
+
+---
+
+<br>
+
 ## Bibliografia
 
 ```bash
