@@ -15,5 +15,5 @@ permalink: /scrivener
 É de longe o editor de texto mais completo para macOS e Windows, especialmente para a redação de documentos longos.  
   
 ## Referências interessantes  
-- O [Dotpandoc](https://github.com/iandol/dotpandoc/tree/master/defaults) contém algumas receitas de conversão com o Pandoc usando cabeçalhos [YAML](https://pt.wikipedia.org/wiki/YAML).
 
+- O [Dotpandoc](https://github.com/iandol/dotpandoc/tree/master/defaults) contém algumas receitas de conversão com o Pandoc usando cabeçalhos [YAML](https://pt.wikipedia.org/wiki/YAML).
