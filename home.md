@@ -3,9 +3,26 @@ permalink: /home
 
 # GDCT
 
-- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
-- Grupo de discussão "[ὁμιλεῖτε ἑλληνικά;](https://t.me/joinchat/Ao6qvFlCqZu49UTYxLRC3Q)" no aplicativo Telegram.  
+Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT. Este projeto nasceu com o propósito de difundir os recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado em [filosofia antiga](http://filosofiantigaufmg.blogspot.com.br) na UFMG. É meu desejo sincero que você possa encontrar aqui algo útil para você.
+
+**Como participar?**  
+Se você tiver sugestões, comentários, se precisar de ajuda ou se tiver interesse em discutir sobre este e outros temas relacionados à pesquisa em ciências humanas e à tradução dos textos gregos antigos, você pode:
+
+- abrir um [novo ponto de discussão](https://github.com/bcdavasconcelos/GDCT/issues/new) no [repositório do projeto](https://github.com/bcdavasconcelos/GDCT) no [Github](https://github.com);
+- participar do nosso [grupo de discussões no aplicativo Telegram](https://t.me/joinchat/Ao6qvFlCqZu49UTYxLRC3Q);
+- entrar em contato por [email](mailto:bernardovasconcelos@gmail.com).
+
+Acréscimos, modificações e correções também podem ser feitas diretamente via [pull requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) no Github. A sua contribuição seria muito bem-vinda.
+
+<br>
+
+---
+
+<br>
+
+
 - [2020/1 Minicurso Archai (UnB)](2020-1-archai)  
+- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
 
 
 # Bibliografia

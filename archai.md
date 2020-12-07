@@ -3,14 +3,11 @@ tags: Cursos
 permalink: /2020-1-archai
 
 
-
-- [Slides do Prezi utilizados na primeira aula](https://prezi.com/p/36gy_bivht4o/?present=1) em 09/04/2020
-- [Vídeo da segunda aula do minicurso](https://youtu.be/_EANXtdH5V0) em 23/04/2020
+O mini-curso (4h) promovido pela Cátedra Unesco Archai da UnB foi ministrado por Bernardo C.D.A. Vasconcelos (UFMG) e Gustavo Laet Gomes (UFMG/UnB). Infelizmente, a primeira aula (09/04/2020) não foi gravada, mas os slides utilizados podem ser visualizados [aqui](https://prezi.com/p/36gy_bivht4o/?present=1). A segunda aula (23/04/2020) [está disponível no youtube](https://youtu.be/_EANXtdH5V0) e contém algumas estratégias de pesquisa utilizadas por cada um em sua plataforma de trabalho (macOS e Windows)
 
 ---
 
-
-# Minicurso Archai / UnB
+# Convite para o Minicurso Archai / UnB
 
 Para a III Summer School Archai e XVII Seminário Internacional Archai: Novas Agendas para os Estudos Clássicos: Raça e Ecologia, que deveria ter sido realizado nos dias 16 a 20 de março de 2020, na Universidade de Brasília, estava previsto o curso do "Guia Digital de Verão do Classicista dos Trópicos" com Bernardo C. D. A. Vasconcelos (UFMG) & Gustavo L. Gomes (UFMG/UnB).
 

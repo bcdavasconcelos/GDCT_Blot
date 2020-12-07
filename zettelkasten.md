@@ -9,7 +9,7 @@ hashtags: #Organização, #Apps
 
 ![](./img/zk/zk01.png)
 
-A expressão "Caixa fichário" é uma tradução de *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas.[^1] Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?![](./img/zk/zk02.png)
+A expressão "Caixa fichário" é uma tradução de *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas. Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?![](./img/zk/zk02.png)
 
 Normalmente as *teses* e ideias que encontramos na bibliografia secundária, e mesmo em nossas anotações, se encontram condensadas e articuladas em um texto ou fio argumentativo. Para criar novas associações e forjar novas relações entre conceitos, o primeiro passo é praticar a **divisão**.
 

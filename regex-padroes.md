@@ -6,23 +6,23 @@ permalink: /regex-padroes
 
 ## Palavras no alfabeto latino
  [Ver no RegEx 101](https://regex101.com/r/Lt2oEq/1).
- 
+
 - `\b[A-Za-z]+\b`  
     * `\b` *indica a posição no limite de uma palavra*  
     * `A-Z` *um caractere maiúsculo único no intervalo entre A e Z*  
     * `a-z` *um único caractere minúsculo no intervalo entre a e z*  
     * `+` *quantificador que corresponde a 1 ou mais, quantas vezes for possível*  
-  
+
 ## Caracteres gregos  
 [Ver no RegEx 101](https://regex101.com/r/4qEt6k/2)
 
-- `\p{Greek}+` 
+- `\p{Greek}+`
     * `\p`  Indica uma propriedade.  
 
 ## Numeração Bekker
 [Ver no RegEx 101](https://regex101.com/r/6yLgjG/1)
 
-- `\d{1,4}[a|b]\d{1,2}` 
+- `\d{1,4}[a|b]\d{1,2}`
     * `\d{1,4}` Corresponde ao intervalo entre 1 e 4 dígitos
     * `[a|b]` Corresponde a "a" ou "b".
     * `\d{1,2}` Corresponde ao intervalo entre 1 e 2 dígitos
@@ -48,7 +48,7 @@ permalink: /regex-padroes
 
 ***  
 <br>
-  
+
 ## Exemplo com posição e quantificador não-avarento
 Na linha abaixo, eu preciso encontrar a referência Bekker.
 
