@@ -3,31 +3,31 @@ hashtags: #automação, #macOS
 permalink: /karabiner
 
 # Karabiner  
-  
-  
+<script src="prism.js"></script>  
+
 O [Karabiner](https://pqrs.org/osx/karabiner/) é um aplicativo gratuito de código aberto para customizar o teclado no macOS. Ele pode ser utilizado para re-mapear teclas com pouco uso, como `CAPS LOCK` ou `⌥-Direita`, e transformá-las em algo mais útil, como a combinação ⇧⌃⌥⌘, abrindo inúmeras possibilidades de criar novos atalhos. No meu sistema, por exemplo, `⌥ ←` (=`⇧⌃⌥⌘←`) ativa um macro do Keyboard Maestro que move o aplicativo em primeiro plano para a metade esquerda da tela.  
-  
+
 Similarmente…  
 - `⌥ →` (=`⇧⌃⌥⌘→`) move para a metade direita.  
 - `⌥ ↑` (=`⇧⌃⌥⌘↑`) move para a metade superior.  
 - `⌥ ↓` (=`⇧⌃⌥⌘↓`) move para a metade inferior.  
-  
+
 A tecla `CAPS LOCK`, por sua vez, tornou-se `F20`, que é um atalho para um macro que muda o teclado (pt_BR ⇆ GRC) e ativa o perfil correspondente do Karabiner (você pode criar inúmeros perfis). No perfil para o Grego, transformei a letra `u` em `υ`, `y` em `;` e `q` em `θ`. Por algum motivo sempre me incomodou o `υ` ficar na tecla `y`.  
-  
-  
+
+
 ## Configurando  
-  
+
 Para configurar o Karabiner, você pode utilizar a interface do próprio software, ou editar o arquivo JSON. Se quiser experimentar esse último método, abra o terminal e dê o seguinte comando:  
-  
-```  
+
+```language-bash  
 open ~/.config/karabiner/karabiner.json  
 ```  
-  
+
 Ou você pode abrir o finder, pressionar `⇧⌘G`, colar `~/.config/karabiner/karabiner.json` e pressionar `enter`.  
-  
+
 Abaixo transcrevo as minhas configurações. Se você copiar e colar o código terá exatamente as mesmas configurações e funções.  
 
-```
+```language-json
     {
         "global": {
             "check_for_updates_on_startup": true,

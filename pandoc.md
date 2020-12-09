@@ -3,12 +3,14 @@ hashtags: #Automação, #Escrita, #Pandoc
 permalink: /pandoc
 
 # Pandoc
+<script src="prism.js"></script>
+
 [Instruções para instalar o Pandoc](https://pandoc.org/installing.html)
 
 ## Conversão simples de Markdown para PDF
 Execute o seguinte comando no terminal/shell:  
 
-```Bash+shell
+```language-bash
 pandoc -s -f markdown SeuArquivo.md --pdf-engine=xelatex -o SeuPDF.pdf
 ```
 
@@ -18,10 +20,10 @@ Entendendo o comando:
 
 `-f`  from — É o formato a partir do qual se converte (e.g. markdown / docx / html / gfm / etc) que deve ser seguido pelo nome do arquivo a partir do qual se converte (e.g. documento.md).
 
-`-o` output — É o resultado desejado, no nosso caso, um PDF (ver próximo item). 
+`-o` output — É o resultado desejado, no nosso caso, um PDF (ver próximo item).
 
 `—pdf-engine=xelatex` — Como a conversão direta entre markdown e PDF não é possível, precisamos fazê-la via Latex ou HTML. A minha sugestão é usar XeLaTeX, pois tem a vantagem de suportar caracteres gregos e utilizar fontes do sistema
-Atenção: você precisa ter os pacotes LaTeX instalados. E.g. http://www.tug.org/mactex/MacTex. 
+Atenção: você precisa ter os pacotes LaTeX instalados. E.g. http://www.tug.org/mactex/MacTex.
 
 <br>
 
@@ -31,7 +33,7 @@ Atenção: você precisa ter os pacotes LaTeX instalados. E.g. http://www.tug.or
 
 ## Adicionando Variáveis
 
-```Bash
+```language-bash
 pandoc -s -f markdown SeuArquivo.md \
 --pdf-engine=xelatex \
 -V 'mainfont=Gentium Plus' \
@@ -43,11 +45,11 @@ pandoc -s -f markdown SeuArquivo.md \
 --toc -o SeuPDF.pdf
 ```
 
-`-V` variable — Indica uma variável a ser inserida durante a conversão. Sempre lembrar de colocar o valor entre aspas simples. 
+`-V` variable — Indica uma variável a ser inserida durante a conversão. Sempre lembrar de colocar o valor entre aspas simples.
 
 `mainfont=Gentium Plus` — Qualquer fonte do sistema pode ser utilizada com XeLateX. Para arquivos com textos em grego, eu gosto das seguintes fontes: Gentium Plus, Alegreya, EB Garamond e Linux Libertine. Você encontra todas elas [aqui](fontes-tipograficas).
 
-`sansfont=Source Sans Pro` — Fonte sem serifa de escolha. 
+`sansfont=Source Sans Pro` — Fonte sem serifa de escolha.
 
 `monofont=Menlo` — Fonte de largura fixa de sua preferência. Recomendo Menlo, TheSansMono Office, DejaVu Sans Mono.
 
@@ -58,7 +60,7 @@ pandoc -s -f markdown SeuArquivo.md \
 `pagestyle:headings` — Estilos diferentes de páginas: com cabeçalho, padrão e sem nada (headings / plain / empty).
 
 `—toc` — Incluir *table of contents*.
-  
+
 `-V linkcolor:blue`
 
 <br>
@@ -80,7 +82,7 @@ Para facilitar as referências internas, podemos utilizar um filtro chamado [Pan
 
 ## Bibliografia
 
-```bash
+```language-bash
 "--csl=$HOME/path/csl/chicago-author-date.csl" \
 "--bibliography=$HOME/path/all.json"
 ```
@@ -96,9 +98,8 @@ Para facilitar as referências internas, podemos utilizar um filtro chamado [Pan
 
 ## Includes (transclusão)
 
-```bash
+```language-bash
 "--lua-filter=$HOME/path/include-files.lua"
 ```
 
 Para fazer transclusões usando o pandoc, é preciso usar um [filtro adicional em lua](https://github.com/pandoc/lua-filters) no comando.  
-

@@ -2,6 +2,8 @@ tags: Apps, macOS
 permalink: /bbedit
 
 # BBEdit
+<script src="prism.js"></script>
+
 
 O [BBEdit](https://www.barebones.com/products/bbedit/) (apenas macOS) é o processador que passo mais tempo utilizando. É mais rápido do que o bloco de notas, abre praticamente qualquer tipo de arquivo contendo texto (incluindo até mesmo imagens de disco, i.e. arquivos **.dmg**), é capaz de fazer buscas e substituições em pastas inteiras sem a necessidade de abrir qualquer arquivo e possui uma ferramenta especial, o *text factory*, que é muito útil para automatizar certos processos com texto. Além disso, é o que está melhor integrado ao macOS e pode ser utilizado indefinidamente com as funções mais importantes sem a necessidade de uma licença (mas para acessar tudo que o aplicativo oferece é preciso adquirir uma).
 
@@ -9,18 +11,18 @@ O [BBEdit](https://www.barebones.com/products/bbedit/) (apenas macOS) é o proce
 
 ### Tornar markdown o formato padrão para novos arquivos
 
-```bash
+```language-bash
 defaults write com.barebones.bbedit DefaultLanguageNameForNewDocuments -string "Markdown"
 ```
 
 
 ### Comparar dois arquivos de texto selecionados no DEVONthink
 
-```applescript
+```language-applescript
 property err : " is not a plain text file." -- Just a default error message as a convenience
 
 tell application id "DNtp"
-	
+
 	set theRecords to the selection
 	if (count selection) = 2 then -- Verify only two files are selected
 
@@ -60,7 +62,7 @@ end tell
 
 ### Comparar dois arquivos de texto selecionados no Finder
 
-```
+```language-applescript
 tell application "Finder" to set sel to the selection
 
 if (count of sel) is 2 then

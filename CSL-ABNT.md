@@ -3,6 +3,10 @@ hashtags: #Pandoc, #Bibliografia, #ABNT
 permalink: /CSL-ABNT
 
 # CSL ABNT para Autores Antigos
+<script src="prism.js"></script>
+
+
+<p style="text-align:left">[![DOI](https://raw.githubusercontent.com/bcdavasconcelos/CSL-ABNT-para-Autores-Antigos/main/zenodo.4305064.svg)](https://zenodo.org/badge/latestdoi/303481460)</p>
 
 Esse é um estilo que adaptei para facilitar a citação de textos antigos utilizando o filtro CITEPROC do Pandoc. O arquivo do estilo pode ser baixado [nesse repositório do GitHub](https://github.com/bcdavasconcelos/CSL-ABNT-para-Autores-Antigos).
 
@@ -13,7 +17,7 @@ Esse é um estilo que adaptei para facilitar a citação de textos antigos utili
 - Para citar as demais edições críticas, utilizo o tipo `legislation`.
 - Para citar traduções modernas, utilizo o tipo `report`.
 
-**Justificativa:** Sem algum tipo de adaptação aos arquivos CSL no formato ABNT, seria impossível utilizar de modo satisfatório o processamento automatizado da bibliografia do [Pandoc](https://pandoc.org/MANUAL.html#citation-rendering). Uma citação da ed. Bekker, de uma outra edição crítica qualquer ou de uma tradução do texto, traria sempre o nome do autor para a citação em linha. 
+**Justificativa:** Sem algum tipo de adaptação aos arquivos CSL no formato ABNT, seria impossível utilizar de modo satisfatório o processamento automatizado da bibliografia do [Pandoc](https://pandoc.org/MANUAL.html#citation-rendering). Uma citação da ed. Bekker, de uma outra edição crítica qualquer ou de uma tradução do texto, traria sempre o nome do autor para a citação em linha.
 
 Para corrigir isso, fiz algumas modificações de modo a trazer para a citação em linha a abreviação da obra, no caso da ed. Bekker; o nome do editor, no caso das edições críticas; e o nome do tradutor, no caso das traduções modernas. De modo a evitar interferência na formatação da bibliografia dos tipos tradicionais e mais comuns — como `book` e `journal article` — optei por re-aproveitar outros tipos menos utilizados e de pouca utilidade para os estudos clássicos, como `legislation` e `report`.
 
@@ -65,8 +69,8 @@ No meu caso, o arquivo está na seguinte localização:
 
 Portanto, devo acrescentar:
 
-```bash
--C "--csl=$HOME/Dropbox/Scrivener/workflow-mmd/refs/ABNT.csl" 
+```language-bash
+-C "--csl=$HOME/Dropbox/Scrivener/workflow-mmd/refs/ABNT.csl"
 ```
 
 - Não se esqueça, é claro, de acrescentar também o arquivo com a bibliografia (que pode estar em formato json ou BibTeX).
@@ -77,18 +81,19 @@ Novamente, no meu caso, está na seguinte localização:
 
 Acrescento, portanto:
 
-```bash
+```language-bash
 "--bibliography=$HOME/Dropbox/Scrivener/workflow-mmd/refs/All.json"
 ```
 
 ## Zotero
 
-Essa possibilidade **não foi testada**, mas, em princípio, esse arquivo CSL pode ser utilizado com o Zotero no Microsoft Word ou em algum outro processador de texto qualquer. 
+Essa possibilidade **não foi testada**, mas, em princípio, esse arquivo CSL pode ser utilizado com o Zotero no Microsoft Word ou em algum outro processador de texto qualquer.
 
 
 # Exemplo de referência (em formato json):
 
-```json
+```language-json  
+
   {
     "annote": "EN",
     "author": [
@@ -116,10 +121,7 @@ Essa possibilidade **não foi testada**, mas, em princípio, esse arquivo CSL po
     "publisher-place": "Berlim",
     "title": "Ethica nicomachea",
     "type": "chapter"
-  }
-```
-
-```json
+  },
   {
     "author": [
       {
@@ -145,9 +147,7 @@ Essa possibilidade **não foi testada**, mas, em princípio, esse arquivo CSL po
     "publisher-place": "Oxford",
     "title": "Ethica nicomachea",
     "type": "legislation"
-  }
-  ```
-```json
+  },
   {
     "author": [
       {

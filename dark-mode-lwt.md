@@ -3,12 +3,14 @@ hashtags: #CSS, #Modo-Escuro
 permalink: /dark-mode-lwt
 
 # Modo escuro para o Learning with Texts  
+<script src="prism.js"></script>
+
 [Github Gist](https://gist.github.com/f16551a2c479cb7d43bdfc2fdd568d34#file-styles-css)  
-  
+
 [Learning with texts](http://lwt.sourceforge.net) é um excelente programa para praticar línguas estrangeiras.  
 Esse é um CSS com um modo escuro para o programa.
 
-```
+```language-css
     body {
         background-color:, 434140;
         color:, FFFFFF;
@@ -64,7 +66,7 @@ Esse é um CSS com um modo escuro para o programa.
     }
     span.status98 {
         background-color:, 434140;
-        border-bottom: dashed 1px, 434140; 
+        border-bottom: dashed 1px, 434140;
         color:, FFFFFF;
     }
     span.mwsty {
@@ -72,7 +74,7 @@ Esse é um CSS com um modo escuro para o programa.
         font-size: 60%;
         font-weight: bold;
         color:, FFFFFF;
-        vertical-align: top; 
+        vertical-align: top;
     }
     span.wsty {
         margin-right: 2px;
@@ -167,7 +169,7 @@ Esse é um CSS com um modo escuro para o programa.
     }
     a:hover {
         color: rgb(229, 4, 4);
-    } 
+    }
     img {
         border: 0pt none;
     }
@@ -220,19 +222,19 @@ Esse é um CSS com um modo escuro para o programa.
     .backlightyellow {
         background-color:, FFFACD;
     }
-    .small { 
+    .small {
         color: black;
         font-size:60%;
     }
-    .smallgray { 
+    .smallgray {
         color: gray;
         font-size:60%;
     }
-    .smallgray2 { 
+    .smallgray2 {
         color: gray;
         font-size:80%;
     }
-    .smallgray3 { 
+    .smallgray3 {
         color: gray;
         font-size:70%;
         width: 850px;
@@ -266,15 +268,15 @@ Esse é um CSS com um modo escuro para o programa.
         border: 1pt solid, 545454;
     }
     .graydotted {
-        margin-top: 30px; 
-        padding-top: 5px; 
+        margin-top: 30px;
+        padding-top: 5px;
         border-top: 1px dotted, 545454;
     }
    , printoptions {
         margin-bottom: 15px;
         padding-bottom: 15px;
         border-bottom: 1px dotted, 545454;
-        line-height: 1.8; 
+        line-height: 1.8;
         margin-top: 20px;
     }
     .width50px {
@@ -286,11 +288,11 @@ Esse é um CSS com um modo escuro para o programa.
     .width45pc {
         width: 45%;
     }
-    dd { 
-        margin-top: 10pt; 
+    dd {
+        margin-top: 10pt;
     }
-    dt { 
-        margin-top: 10pt; 
+    dt {
+        margin-top: 10pt;
     }
     .annterm {
         font-weight: bold;
@@ -351,14 +353,14 @@ Esse é um CSS com um modo escuro para o programa.
         border-bottom: 1px solid, FFFFFF;
         border-right: 1px solid, FFFFFF;
     }
-    .uwordmarked { 
+    .uwordmarked {
         font-weight: bold;
         border-top: 3px solid red;
         border-bottom: 3px solid red;
         border-right: 3px solid red;
         border-left: 3px solid red;
     }
-    .kwordmarked { 
+    .kwordmarked {
         font-weight: bold;
         border-top: 3px solid black;
         border-bottom: 3px solid black;
@@ -403,7 +405,7 @@ Esse é um CSS com um modo escuro para o programa.
     }
     .wizard {
         margin: 20px 0 5px 0;
-    } 
+    }
     /**************************************************************
     Additional styles for printing
     ***************************************************************/
@@ -417,4 +419,3 @@ Esse é um CSS com um modo escuro para o programa.
         }
     }
 ```
-

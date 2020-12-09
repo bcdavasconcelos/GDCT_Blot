@@ -4,25 +4,26 @@ permalink: /pdf-highlight
 
 
 # Script para realce de palavras em arquivo PDF
+<script src="prism.js"></script>
 
 Para esse script, você vai precisar do [Python 3](https://www.python.org/downloads/) instalado e da biblioteca [PyMuPdf](https://pypi.org/project/PyMuPDF/). Se você já tiver o python3 instalado, basta dar o seguinte comando no terminal/shell:
 
 
-```bash
+```language-bash
 pip install PyMuPdf
 ```
 
-Para usar o script, salve o código abaixo em um arquivo de texto com o nome `pdfhigh.py` e a lista de palavras que devem ser realçadas no PDF em um arquivo chamado `Lista.txt` na mesma pasta. Você pode corrigir o endereço para o arquivo pdf no script, ou colocar o arquivo na mesma pasta com o nome `File.pdf`. 
+Para usar o script, salve o código abaixo em um arquivo de texto com o nome `pdfhigh.py` e a lista de palavras que devem ser realçadas no PDF em um arquivo chamado `Lista.txt` na mesma pasta. Você pode corrigir o endereço para o arquivo pdf no script, ou colocar o arquivo na mesma pasta com o nome `File.pdf`.
 
 Para rodar o script, abra o shell/terminal e navegue até a pasta com os arquivos. Dê o seguinte comando:
 
-```bash
+```language-bash
 python3 pdfhigh.py
 ```
 
 ## Script
 
-```python
+```language-python
 # Fonte: https://github.com/isitan/PDF-dictionary-highlighter
 
 import fitz
@@ -62,4 +63,3 @@ for page in doc:
 ### OUTPUT
 doc.save("./File.pdf", garbage=4, deflate=True, clean=True)
 ```
-

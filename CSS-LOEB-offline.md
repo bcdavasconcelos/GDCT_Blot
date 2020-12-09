@@ -3,7 +3,7 @@ hashtags: #CSS, #Fontes-primárias
 tags: Fontes primárias, CSS
 
 # Modificações para o site da LOEB
-
+<script src="prism.js"></script>
 
 Se você usa o site da LOEB Classical Library, sobretudo offline, eis algumas alterações que podem tornar a experiência de ler, navegar e consultar os textos um pouco mais agradável. Para adicioná-las ao site, basta usar extensões para o navegador como o Stylus ou o Cascadea.
 

@@ -3,7 +3,7 @@ hashtags: #Automação, #Markdown, #Pandoc, #Python
 permalink: /mdfootnotes
 
 # Convertendo o formato das notas de rodapé em arquivos markdown
-
+<script src="prism.js"></script>
 
 Eventualmente, pode ser útil ou necessário mudar o estilo das notas de rodapé em markdown. O método comumente adotado envolve utilizar uma marcação para indicar a origem da nota (e.g. `[^1]`) e deixar o seu conteúdo propriamente no final do texto (mais ou menos como seria em processadores de texto como o Word).
 
@@ -49,7 +49,7 @@ Parágrafo C[^3]
 
 A solução mais simples para essa dificuldade seria converter todas as notas para o formato *inline*.
 
-```lang-markdown
+```lang-markdown  
 # Título
 
 Parágrafo A[^Primeira nota de rodapé.]

@@ -1,103 +1,46 @@
-tags: index
+tags: Sobre o guia digital
 permalink: /home
 
-# GDCT
+# Página inicial
 
-Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT. Este projeto nasceu com o propósito de difundir os recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado em [filosofia antiga](http://filosofiantigaufmg.blogspot.com.br) na UFMG. É meu desejo sincero que você possa encontrar aqui algo útil para você.
+Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT.
 
-**Como participar?**  
+Esse projeto nasceu com o propósito de compartilhar e difundir recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado junto à [linha de Filosofia Antiga e Medieval](http://filosofiantigaufmg.blogspot.com.br) do [PPG em Filosofia](https://filosofia.fafich.ufmg.br/pos-graduacao/) da Universidade Federal de Minas Gerais[^2].
+
+Para navegar pelo projeto, utilize o sistema de *tags* ou a *busca textual*. Para alternar entre os modos de exibição claro e escuro, clique no ícone no cabeçalho. Se esta for a sua primeira visita, comece pela [introdução ao projeto](/gdct-intro). Espero que você possa encontrar aqui algo útil para o seu próprio trabalho acadêmico de ensino, pesquisa e extensão.
+
+## Como participar?
 Se você tiver sugestões, comentários, se precisar de ajuda ou se tiver interesse em discutir sobre este e outros temas relacionados à pesquisa em ciências humanas e à tradução dos textos gregos antigos, você pode:
 
-- abrir um [novo ponto de discussão](https://github.com/bcdavasconcelos/GDCT/issues/new) no [repositório do projeto](https://github.com/bcdavasconcelos/GDCT) no [Github](https://github.com);
+- abrir um [novo ponto de discussão](https://github.com/bcdavasconcelos/GDCT/issues/new) no [repositório do projeto](https://github.com/bcdavasconcelos/GDCT);
 - participar do nosso [grupo de discussões no aplicativo Telegram](https://t.me/joinchat/Ao6qvFlCqZu49UTYxLRC3Q);
 - entrar em contato por [email](mailto:bernardovasconcelos@gmail.com).
 
-Acréscimos, modificações e correções também podem ser feitas diretamente via [pull requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) no Github. A sua contribuição seria muito bem-vinda.
+Acréscimos, modificações e correções também podem ser feitas diretamente via [pull requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) no [Github](https://github.com). Qualquer contribuição seria muito bem-vinda.
 
-<br>
+## Detalhes técnicos
 
----
+Tecnicamente, o GDCT nada mais é do que uma pasta de arquivos armazenada em minha conta do Dropbox e espelhada [no repositório mencionado do Github](https://github.com/bcdavasconcelos/GDCT). Cada vez que surge uma solicitação de acesso, o conteúdo é acessado pelo [Blot](https://blot.im) e convertido em páginas HTML para serem visualizadas pelo seu navegador[^1].
 
-<br>
+A pasta mencionada contém outras duas pastas:
+
+A primeira com os arquivos de texto (em formato *markdown*) que fornecem o conteúdo das diversas páginas do site. Salvo expressa indicação contrária, os textos são de minha autoria e podem ser livremente reproduzidos desde que isso seja feito indicando a fonte. Para mais detalhes sobre a licença aberta CC BY-SA 4.0, visite o site da [creative commons.org](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR)
+
+A segunda pasta contém os templates das diferentes página do site em formato *HTML*, as instruções sobre sua aparência em formato *CSS*, alguns scripts em *JS* e um arquivo *JSON* com informações diversas que são distribuídas para os templates.
+
+### Código fonte
+
+O template utilizado mistura elementos de diversos outros do Blot e que foram amplamente modificados por mim. O estilo do site, por sua vez, foi construído a partir snippets de código acumulados ao longo dos últimos anos. Todo o material que diz respeito à estrutura e aparência do site — ou seja, todo o código fonte — pode ser livremente copiado e reutilizado sem necessidade de indicar a fonte. À propósito, se você utiliza o programa [Obsidian](https://obsidian.md), poderá encontrar dois estilos do GDCT disponíveis para uso.
+
+### Java Script
+Há quatro scripts no site que oferecem as seguintes funções:
+
+- O [AnchorJS](https://www.bryanbraun.com/anchorjs/) facilita a obtenção de links diretos para títulos (h1-h4) em cada artigo.
+- O [PrismJS](https://prismjs.com) realiza o realce de sintaxe nos blocos de código.
+- Um pequeno script encontrado online (não me lembro mais onde) fica responsável pela alternância entre os modos claro e escuro que acontece quando o usuário clica no ícone do cabeçalho que alterna entre o sol e a lua.
+- Um pequeno script oferecido por David Merfield organiza os artigos em ordem alfabética na seção de tags.
 
 
-- [2020/1 Minicurso Archai (UnB)](2020-1-archai)  
-- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
+[^1]: Este serviço gera um custo mensal de US$3 (aprox. R$20/mês ou R$240/ano) para funcionar.
 
-
-# Bibliografia
-
-## Fontes primárias
-- [*Thesaurus Linguae Graecae*](/tlg-intro)
-- [Convertendo textos do TLG](tlg-betacode)
-- [Códigos do TLG](tlg-ref)
-- [Códigos do TLG com links](tlg-ref-link)
-- [Filósofos do período arcaico/Pré-socráticos](filosofia-arcaica)
-- [Salvando páginas do Diogenes nos favoritos](diogenes-favoritos)
-- [Repositórios de material digitalizado](bib-digitalizada)
-- [Clássicos digitais](digital-classics)
-
-## Fontes secundárias
-- [Gerenciadores bibliográficos](bib-managers)
-- [Indexadores de referências bibliográficas](bib-pesquisa)
-- [Driblando questões de acesso à bibliografia secundária](bib-acesso)
-
-## Recursos filológicos
-- [Fontes tipográficas](fontes-tipograficas)
-- [Dicionários](dicionarios)
-- [Gramáticas de grego antigo](grc-gramaticas)
-- [Corretor ortográfico de grego antigo](grc-corretor)
-- [Aplicativos para celular](apps-celular)
-- [CAT-Tools (Computer Assisted Translation)](cat-tools)
-
-## Formatos especiais
-- [eBooks](eBooks)
-- [Audiobooks](Audiobooks)
-- [Transforme eBooks em websites](ebooks-websites)
-
-# Organização e exportação
-## Ferramentas de escrita
-- [Por que deveríamos parar de usar o Word](markdown-versus-word)
-- [Editores de texto](editores-de-texto)
-- [Editores de markdown](markdown-editores)
-- [Processadores de texto](processadores-de-texto)
-- [Pandoc](Pandoc)
-
-## Estratégia para lidar com o conteúdo da pesquisa
-- [Sinopse](Sinopse)
-- [Caixa Fichário](Zettelkasten)
-- [Wikis](Wikis)
-
-## Páginas especiais para alguns aplicativos
-- [DEVONthink 3](DEVONthink-3)
-- [Connected Text](Connected-Text)
-- [Scrivener](Scrivener)
-- [Obsidian](Obsidian)
-- [Tinderbox](Tinderbox)
-
-## Dropbox
-- [Criando links de download com o Dropbox](dropbox-links-download)
-- [Compartilhando referências em pdfs via Dropbox](dropbox-pdfs)
-
-# Automação
-- [RegEx](regex)
-- [Padrões úteis de RegEx](regex-padroes)
-
-## Automação no macOS
-- [Karabiner](Karabiner)
-- [Macro para citar Aristóteles](km-macros)
-- [Workflows para Alfred](alfred-workflows)
-
-## Backups
-- [Time-machine](time-machine)
-
-# Línguas antigas
-- [O método natural](metodo-natural)
-- [Aprendendo grego](grc-aprendendo)
-
-# Glossário e recursos adicionais
-- [Wiki links automáticos](wiki-links-auto)
-
-## CSS
-- [Dark Mode no Diogenes](dark-mode-diogenes)
-- [Dark Mode no LWT](dark-mode-lwt)
+[^2]: Deixo registrado meu agradecimento à Coordenação de Aperfeiçoamento de Pessoal de Nível Superior ([CAPES](http://gov.br/capes)) pela bolsa de estudos concedida.
