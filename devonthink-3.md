@@ -4,7 +4,7 @@ permalink: /devonthink-3
 
 # DEVONthink 3  
   
-![DEVONthink 3](./img/apps/dt.png)  
+![DEVONthink 3](./img/apps/__dt.png)  
 
 **🕸️** [DEVONthink Pro 3](https://www.devontechnologies.com/apps/devonthink/new) () *é um software com diversas funcionalidades e que pode ser utilizado para construir uma caixa fichário ou Wiki, e para armazenar e organizar livros, documentos e arquivos em geral.*  
 

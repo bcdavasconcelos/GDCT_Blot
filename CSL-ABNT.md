@@ -11,7 +11,7 @@ permalink: /CSL-ABNT
 Esse é um estilo que adaptei para facilitar a citação de textos antigos utilizando o filtro CITEPROC do Pandoc. O arquivo do estilo pode ser baixado [nesse repositório do GitHub](https://github.com/bcdavasconcelos/CSL-ABNT-para-Autores-Antigos).
 
 
-![Esq: fonte | Dir: versão renderizada](./img/biblio.png)
+![Esq: fonte | Dir: versão renderizada](./img/__biblio.png)
 
 - Para citar a ed. Bekker (ed. crítica de referência que contém a numeração a a partir da qual o texto de Aristóteles é citado), utilizo o tipo `chapter`.
 - Para citar as demais edições críticas, utilizo o tipo `legislation`.

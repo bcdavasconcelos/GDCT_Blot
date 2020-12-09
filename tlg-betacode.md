@@ -8,9 +8,9 @@ Se você já teve a curiosidade de conferir os arquivos do banco de dados do TLG
 
 O número de quatro dígitos no nome de cada arquivo é, na verdade, o código do autor do texto (*cf.* [Códigos do TLG](tlg-ref)). Esse código aparece no Diogenes em alguns lugares diferentes, por exemplo, quando você faz uma busca simples pelo nome do autor em **Read>Author>Go.**  
 
-![TLG 1](./img/TLG/tlg2.png)  
+![TLG 1](./img/tlg/__tlg2.png)  
 
-![TLG3](./img/TLG/tlg3.png)  
+![TLG3](./img/tlg/__tlg3.png)  
 
 Já o formato de texto que você encontra dentro do arquivo — e que o Diogenes converte por nós em unicode — é o chamado *[betacode](https://en.wikipedia.org/wiki/Beta_Code)*. Esse formato foi criado especificamente para tornar possível grafar o grego politônico com caracteres ASCII no TLG e, infelizmente, tornou-se padrão em algumas domínios dos estudos clássicos.  
 
@@ -27,9 +27,9 @@ Visitando o site da [Université catholique de Louvain](https://cental.uclouvain
 - Uma conversão básica, que apenas transforma o arquivo **.txt** do betacode para unicode, sem preservar qualquer dado adicional do texto.  
 - Uma conversão estendida, que utiliza os arquivos **.txt** e **.idt** para produzir uma versão do texto com a numeração da edição crítica de referência (**Recomendado**).  
 
-![TLG4](./img/TLG/tlg4.png)  
+![TLG4](./img/tlg/__tlg4.png)  
 
-![TLG5](./img/TLG/tlg5.png)  
+![TLG5](./img/tlg/__tlg5.png)  
 
 ## Método 2: Diogenes  
 No menu das versões mais recentes do [Diogenes](https://d.iogen.es), há uma opção “Export” que pode converter todo o banco de dados, ou parte dele, em arquivos XML[^2] contendo o texto unicode. Essa opção de conversão carrega várias informações adicionais no processo e produz um texto com diversas tags de marcação, que podem ser uma vantagem ou desvantagem dependendo do seu propósito. Utilizar esse método para removê-las manualmente em seguida definitivamente não é algo desejável.  

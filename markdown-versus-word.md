@@ -89,7 +89,7 @@ A lista ordenada é indicada por um número `1.` e a lista não ordenada pelo as
 ```  
 
 
-![Multimarkdown Composer](./img/apps/mmd.png)  
+![Multimarkdown Composer](./img/apps/__mmd.png)  
 
 Há bastante material na internet sobre markdown e seus diferentes sub-tipos, mas tudo que você precisa saber está nesse resuminho aí em cima.  
 

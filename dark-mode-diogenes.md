@@ -14,7 +14,7 @@ O Diogenes infelizmente não tem.
 Melhor dizendo, não tinha…  
 
 
-![Diogenes](./img/apps/Diog.png)  
+![Diogenes](./img/apps/__Diog.png)  
 
 
 

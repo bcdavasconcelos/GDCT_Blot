@@ -4,7 +4,7 @@ permalink: /scrivener
 
 # Scrivener  
   
-![Scrivener](./img/apps/scriv.png)  
+![Scrivener](./img/apps/__scriv.png)  
   
 [Scrivener](https://www.literatureandlatte.com) é um software mereceria uma categoria própria: não é um processador de texto, nem propriamente um editor de texto. Utiliza rtf, mas o que você vê não é exatamente o que você tem como produto. Além disso, ele tem algumas funções bastante avançadas e interessantes, como:  
   
