@@ -88,13 +88,13 @@ Estes são alguns dos principais projetos voltados para a produção de ediçõe
     </tr>
     <tr>
       <td valign="middle" style="width: 33%">
-        <p style="text-align: center"><a href="https://scaife.perseus.org"><img src="./img/Proj-Perseus.png" width="100px" height="100px" style="border-width:0"></a></p>
+        <p style="text-align: center"><a href="https://scaife.perseus.org"><img src="./img/__Proj-Perseus.png" width="100px" height="100px" style="border-width:0"></a></p>
       </td>
       <td valign="middle" style="width: 33%">
-        <p style="text-align: center"><a href="http://www.tlg.uci.edu"><img src="./img/Proj-TLG.png" width="100px" height="100px" style="border-width:0"></a></p>
+        <p style="text-align: center"><a href="http://www.tlg.uci.edu"><img src="./img/__Proj-TLG.png" width="100px" height="100px" style="border-width:0"></a></p>
       </td>
       <td valign="middle" style="width: 33%">
-        <p style="text-align: center"><a href="https://www.loebclassics.com"><img src="./img/Proj-LOEB.png" width="100px" height="100px" style="border-width:0"></a></p>
+        <p style="text-align: center"><a href="https://www.loebclassics.com"><img src="./img/__Proj-LOEB.png" width="100px" height="100px" style="border-width:0"></a></p>
       </td>
     </tr>
   </tbody>

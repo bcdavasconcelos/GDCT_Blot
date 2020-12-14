@@ -7,7 +7,7 @@ Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT.
 
 Esse projeto nasceu com o propósito de compartilhar e difundir recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado junto à [linha de Filosofia Antiga e Medieval](http://filosofiantigaufmg.blogspot.com.br) do [PPG em Filosofia](https://filosofia.fafich.ufmg.br/pos-graduacao/) da Universidade Federal de Minas Gerais[^2].
 
-Para navegar pelo projeto, utilize o sistema de *tags* ou a *busca textual*. Para alternar entre os modos de exibição claro e escuro, clique no ícone no cabeçalho. Se esta for a sua primeira visita, comece pela [introdução ao projeto](/gdct-intro). Espero que você possa encontrar aqui algo útil para o seu próprio trabalho acadêmico de ensino, pesquisa e extensão.
+Espero que você possa encontrar aqui algo útil para o seu próprio trabalho acadêmico de ensino, pesquisa e extensão. Se esta for a sua primeira visita, comece pela [introdução ao projeto](/gdct-intro). 
 
 ## Como participar?
 Se você tiver sugestões, comentários, se precisar de ajuda ou se tiver interesse em discutir sobre este e outros temas relacionados à pesquisa em ciências humanas e à tradução dos textos gregos antigos, você pode:

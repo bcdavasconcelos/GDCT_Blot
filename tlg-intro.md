@@ -51,9 +51,9 @@ Felizmente, esse estado de coisas está mudando e já está em desenvolvimento u
 [^2]: Esse formato foi desenvolvido por David Packard (filho do engenheiro Packard que fundou a Hewlett-Packard, a.k.a. HP.) para grafar o grego politônico usando caracteres ASCII.  
 [^3]: Se você entrar na pasta de textos do banco de dados do TLG, perceberá que os arquivos estão numerados de acordo com o código do respectivo autor.  
 [^4]: Links do TLG tem a seguinte estrutura:  
-  "http://stephanus.tlg.uci.edu/Iris/indiv/browser.jsp#doc=tlg&aid=AUTORwid=OBRA&st=0".  
+  "http://stephanus.tlg.uci.edu/Iris/Cite?AUTOR:OBRA:0".  
   Logo, para a Physica {0086.031} teríamos:  
-  "http://stephanus.tlg.uci.edu/Iris/indiv/browser.jsp#doc=tlg&aid=0086&wid=031&st=0".  
+  "http://stephanus.tlg.uci.edu/Iris/Cite?0086:031:0".  
 [^5]: O Diogenes na verdade funciona como um servidor e como um navegador. Faça um experimento, abra o Diogenes e depois vá até seu browser (*e.g.* Safari, Firefox, Chrome, *etc.*) e acesse [http://localhost:8888/Diogenes.cgi](http://localhost:8888/Diogenes.cgi).  
 [^6]: A arquitetura CITE foi desenvolvida para resolver um problema antigo da internet: links quebrados. Basta abrir uma página de alguns anos atrás para perder qualquer esperança de encontrar links funcionando. Essa arquitetura pretende estabelecer um padrão na referência a textos antigos de modo a preservar a ligação e mantê-la sempre funcionando. O exemplo que demos acima da ilustra isso: qualquer link com o código **0086.031** deve apontar para a *Physica* de Aristóteles, não importa onde o texto esteja hospedado, basta ter um sistema capaz de processar essa informação; i.e. um sistema compatível com a arquitetura CITE.  
 [^7]: Respublica {0059.030} Platonis opera, vol. 4. Ed.: John Burnet. Oxford: Clarendon Press, 1902

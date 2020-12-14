@@ -7,21 +7,21 @@ permalink: /tlg-links
 Links do TLG Online tem a seguinte estrutura:  
 
 ```
-http://stephanus.tlg.uci.edu/Iris/indiv/browser.jsp#doc=tlg&aid=AUTORwid=OBRA&st=0
-``` 
+http://stephanus.tlg.uci.edu/Iris/Cite?AUTOR:OBRA:0
+```
 
 ### Exemplo  
 Aristóteles. Physica (0086:031) no TLG Online  
 
 ```
-http://stephanus.tlg.uci.edu/Iris/indiv/browser.jsp#doc=tlg&aid=0086&wid=031&st=0
+http://stephanus.tlg.uci.edu/Iris/Cite?0086:031:0
 ```
 
 ## Perseus Catalog  
 Links do Perseus Catalog tem a seguinte estrutura:
 
 ```
-https://catalog.perseus.org/catalog/urn:cts:greekLit:tlgVAR1.tlgVAR2
+https://catalog.perseus.org/catalog/urn:cts:greekLit:tlgAUTOR.tlgOBRA
 ```
 
 ### Exemplo  

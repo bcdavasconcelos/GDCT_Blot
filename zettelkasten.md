@@ -7,29 +7,31 @@ hashtags: #Organização, #Apps
 
 *Atualizado em 2020-04-13-21-45-47*
 
-![](./img/zk/zk01.png)
+![](./img/zk/__zk01.png)
 
-A expressão "Caixa fichário" é uma tradução de *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas. Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?![](./img/zk/zk02.png)
+A expressão "Caixa fichário" é uma tradução de *Zettelkasten*. Literalmente, ela significa apenas uma caixa onde são guardadas fichas. Esse é também o nome de um método de trabalho desenvolvido pelo sociólogo Niklas Luhmann e que hoje é mais conhecido e utilizado no meio acadêmico de língua alemã. Apesar de soar como um método de organização ou armazenamento, esse certamente não é o caso. Antes de mais nada, a caixa-fichário é uma interlocutora em um diálogo. Mas como esse diálogo é construído?
+
+![](./img/zk/__zk02.png)
 
 Normalmente as *teses* e ideias que encontramos na bibliografia secundária, e mesmo em nossas anotações, se encontram condensadas e articuladas em um texto ou fio argumentativo. Para criar novas associações e forjar novas relações entre conceitos, o primeiro passo é praticar a **divisão**.
 
 
-![](./img/zk/zk03.png)
+![](./img/zk/__zk03.png)
 
 Com as ideias atomizadas em fichas, e removidas do seu contexto de origem, há uma ampla margem para a construção de diferentes formas de vinculação com outras ideias. Dizendo de outro modo, podemos praticar a **reunião** de diferentes modos: alguns diretos outros indiretos.  
 
 Um primeiro modo possível, e indireto, ao qual estamos acostumados, é por meio do uso de pastas. Nesse modelo, baseado na experiência concreta de organização em arquivos, cada ficha pertence a uma única caixa (ou sequência, como veremos). É um modo muito útil e tradicional de manter as coisas organizadas.
 
-![](./img/zk/zk04.png)
+![](./img/zk/__zk04.png)
 
 Um segundo modo possível de associação, também indireto, desconsidera a limitação física e torna possível que uma ficha participe de mais de um agrupamento. Isso é feito por meio de etiquetas, `#tags`, que podem formar diversos grupos sobrepostos para servir a diferentes propósitos.
 
-![](./img/zk/zk05.png)
+![](./img/zk/__zk05.png)
 
 Um terceiro modo, por fim, são os **links diretos** entre ideias dentro do nosso sistema. Novamente, aqui não há limites para o número de ligações possíveis entre as fichas.
 
 
-![](./img/zk/zk06.png)
+![](./img/zk/__zk06.png)
 
 
 Mas é claro que para que essas ligações sejam possíveis, é preciso que haja um sistema de endereçamento das fichas que torne possível referencia-las e incluí-las em diferentes etiquetas ou ligações diretas. Dizendo de outro modo, tudo dentro do sistema precisa de um endereço fixo que não sofrerá nenhum tipo de alteração com o decorrer do tempo de modo a não romper qualquer ligação existente.
@@ -39,12 +41,12 @@ Mas é claro que para que essas ligações sejam possíveis, é preciso que haja
 Nesse método de trabalho baseado em anotações em fichas concretas, como era o caso do *Zettelkasten* do Luhmann, a solução consiste em numerar as notas à medida em que são adicionadas à caixa fichário.
 
 
-![](./img/zk/zk07.png)
+![](./img/zk/__zk07.png)
 
 
 Sempre que possível, uma nota será incluída atrás de uma outra nota existente com a qual dialogue. Se já houver uma outra nota atrás que continue a sequência, sem problemas, ela pode ser adicionada como um subitem na numeração (`1, 2, 2a, 3, 4, 4a, 4b, 5`). Quando não for possível, por ela não dialogar com nenhuma outra nota existente, ela entra no fim da sequência.
 
-![](./img/zk/zk08.png)
+![](./img/zk/__zk08.png)
 
 Há dois detalhes relevantes sobre esse modo de organização.
 
@@ -53,7 +55,7 @@ Há dois detalhes relevantes sobre esse modo de organização.
 2. Com a possibilidade de desdobrar cada item existente, é como se pudéssemos manter diversos diálogos em paralelo. Cada ficha será sempre o início de um fio que pode se desdobrar indefinidamente.
 
 
-![](./img/zk/zk09.png)
+![](./img/zk/__zk09.png)
 
 Os dois outros modos de associação entre fichas descritos anteriormente aparecem no sistema do seguinte modo:
 
@@ -61,7 +63,7 @@ Os dois outros modos de associação entre fichas descritos anteriormente aparec
 
 2. Ligações diretas são, similarmente, anotadas no corpo de cada ficha. Eventualmente uma nova ficha pode ser necessária para justificar, esclarecer ou desdobrar a razão daquele link direto.
 
-![](./img/zk/zk12.png)
+![](./img/zk/__zk12.png)
 
 ## Dialogando
 

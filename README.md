@@ -1,4 +1,6 @@
-# Repositório do site do Guia Digital do Classicista dos Trópicos.
+draft: yes
+
+# Repositório do site do Guia Digital do Classicista dos Trópicos
 
 Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT.
 
