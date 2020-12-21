@@ -35,14 +35,14 @@ https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0086.tlg031
 Links para textos do Diogenes tem a seguinte estrutura:
 
 ```
-localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=AUTHOR&workXXstate=WORK
+http://localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=AUTHOR&workXXstate=WORK
 ```
 
 ### Exemplo   
 Plutarco. Adversus Colotem (0007:140) no Diogenes
 
 ```
-localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=0007&workXXstate=140
+http://localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=0007&workXXstate=140
 ```
 *(Diogenes precisa estar rodando)*
 

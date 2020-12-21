@@ -7,7 +7,15 @@ Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT.
 
 Esse projeto nasceu com o propósito de compartilhar e difundir recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado junto à [linha de Filosofia Antiga e Medieval](http://filosofiantigaufmg.blogspot.com.br) do [PPG em Filosofia](https://filosofia.fafich.ufmg.br/pos-graduacao/) da Universidade Federal de Minas Gerais[^2].
 
-Espero que você possa encontrar aqui algo útil para o seu próprio trabalho acadêmico de ensino, pesquisa e extensão. Se esta for a sua primeira visita, comece pela [introdução ao projeto](/gdct-intro). 
+Para navegar pelo projeto, utilize o sistema de *tags* ou a *busca textual*. Se quiser entender a razão desse sistema de organização, [confira essa página sobre o sistema Zettelkasten](Zettelkasten). Para alternar entre os modos de exibição claro e escuro, clique no ícone no cabeçalho.
+
+Espero que você possa encontrar aqui algo útil para o seu próprio trabalho acadêmico de ensino, pesquisa e extensão. 
+
+## Cursos sobre o guia
+- [2020/1 Minicurso Archai (UnB)](2020-1-archai)
+- [2020/1 Workshop Metodologia e Publicações Científicas (PUC)](https://www.youtube.com/watch?v=67xXqrIMhnA&list=PLsKSeZkQIHFE9RmzsdRiLtc7TQCuBCgRZ)
+- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
+
 
 ## Como participar?
 Se você tiver sugestões, comentários, se precisar de ajuda ou se tiver interesse em discutir sobre este e outros temas relacionados à pesquisa em ciências humanas e à tradução dos textos gregos antigos, você pode:
