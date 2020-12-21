@@ -30,7 +30,7 @@ A segunda pasta contém os templates das diferentes página do site em formato *
 
 ### Código fonte
 
-O template utilizado mistura elementos de diversos outros do Blot e que foram amplamente modificados por mim. O estilo do site, por sua vez, foi construído a partir snippets de código acumulados ao longo dos últimos anos. Todo o material que diz respeito à estrutura e aparência do site — ou seja, todo o código fonte — pode ser livremente copiado e reutilizado sem necessidade de indicar a fonte. À propósito, se você utiliza o programa [Obsidian](https://obsidian.md), poderá encontrar dois estilos do GDCT disponíveis para uso.
+O [template utilizado](https://github.com/bcdavasconcelos/gdct-theme) mistura elementos de diversos outros do Blot e que foram amplamente modificados por mim. O estilo do site, por sua vez, foi construído a partir snippets de código acumulados ao longo dos últimos anos. Todo o material que diz respeito à estrutura e aparência do site — ou seja, todo o código fonte — pode ser livremente copiado e reutilizado sem necessidade de indicar a fonte. À propósito, se você utiliza o programa [Obsidian](https://obsidian.md), poderá encontrar dois estilos do GDCT disponíveis para uso.
 
 ### Java Script
 Há quatro scripts no site que oferecem as seguintes funções:
