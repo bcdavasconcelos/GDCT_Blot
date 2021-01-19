@@ -8,6 +8,8 @@ permalink: /bib-pesquisa
 A Gnomon, *revista crítica para toda a antiguidade clássica*[^1], possui um impressionante [banco de dados](https://www.gbd.digital/)[^2] com centenas de milhares referências e links (dos mais variados tipos) relacionados à antiguidade. Há, por exemplo, [inúmeros links para programas de clássicos no YouTube](http://www.englisch.gnomon-online.de/doindex.FAU?sid=6F2467103&dm=1&ind=11).  
   
 ## Outros repositórios importantes  
+
+- [Core: The world’s largest collection of open access research papers](https://core.ac.uk)
 - [JSTOR](https://www.jstor.org)  
 - [Google Scholar](https://scholar.google.com.br)  
 - [PhilArchive](https://philarchive.org)/[PhilPapers](https://philpapers.org)  

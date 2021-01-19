@@ -1,9 +1,9 @@
-permalink: /gdct-intro
+	permalink: /gdct-intro
 tags: Sobre o guia digital
 hashtags: #Sobre o guia digital#
 
 # Introdução
-
+	
 *Em construção*
 
 - Para navegar pelo projeto, utilize o sistema de *tags* ou a *busca textual*. Se quiser entender a razão desse sistema de organização, [confira essa página sobre o sistema Zettelkasten](Zettelkasten).

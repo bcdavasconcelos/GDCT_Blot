@@ -1,5 +1,5 @@
-tags: Fontes secundárias, eBooks  
-hashtags: #Fontes-secundárias, #eBooks  
+tags: Bibliografia, eBooks  
+hashtags: #Bibliografia, #eBooks  
 permalink: /ebooks
 
 # Aplicativos para eBooks  

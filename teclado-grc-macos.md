@@ -1,6 +1,6 @@
 permalink: /teclado-grc-macos
-tags: 2020-2 Sem Fil Antiga, Layouts de teclado
-hashtags: #2020-2 Sem Fil Antiga, Layouts de teclado
+tags: Layouts de teclado
+hashtags: #Layouts de teclado
 
 # Grego politônico no macOS
 

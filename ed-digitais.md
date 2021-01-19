@@ -1,7 +1,6 @@
 permalink: /ed-digitais
-tags: 2020-2 Sem Fil Antiga, Fontes primárias
-hashtags: #2020-2 Sem Fil Antiga
-
+tags: Fontes primárias
+hashtags: #Fontes primárias
 
 # Edições digitais
 

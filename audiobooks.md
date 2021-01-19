@@ -1,5 +1,5 @@
-tags: Fontes secundárias, Audiobooks
-hashtags: #Fontes-secundárias, #Audiobooks
+tags: Bibliografia, Audiobooks
+hashtags: #Bibliografia, #Audiobooks
 permalink: /audiobooks
 
 # Audiobooks  

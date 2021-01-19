@@ -18,7 +18,7 @@ Eis a sinopse *da página sobre sinopse*.
         1. para começar um novo texto ou projeto, a partir do agrupamento das anotações por contexto (antes de estruturá-la, é útil tê-las divididas por contexto).
         2. para capturar a estrutura de um texto complexo que estamos lendo. E.g. As sinopses de Platão e Aristóteles no [Archelogos](http://www.archelogos.com/xml/aristotleindex.htm) feitas por especialistas na área; a sinopse de [Phys III 1-3](https://bcdavasconcelos.github.io/Aristoteles-Phys.III.1-3/) feita por mim (B.) no [*OmniOutliner*](https://www.omnigroup.com/omnioutliner) e exportada em HTML (clique nas setas para expandir).
         3. para estabelecer relações de prioridade, ordenamento ou de dependência.
-    - Para fazer uma sinopse, não é preciso qualquer ferramentas especiais, ainda que estas possam ser muito úteis. Essa sinopse, por exemplo, foi feita em texto plano sem qualquer formatação especial.
+    - Para fazer uma sinopse, não é preciso qualquer ferramenta especial, ainda que estas possam ser muito úteis. Essa sinopse, por exemplo, foi feita em um software de texto plano sem qualquer recurso extraordinário.
 
 
 ## Softwares especializados
