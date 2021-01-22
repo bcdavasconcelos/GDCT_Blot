@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>jQuery.sidenotes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Transform Markdown footnotes into superpowered sidenotes.">
+
+<style>
+@import url(//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Inconsolata);
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block
+}
+
+
+body {
+  margin: 0
+}
+
+a:focus {
+  outline: thin dotted
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b,
+strong {
+  font-weight: bold
+}
+
+dfn {
+  font-style: italic
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em
+}
+
+pre {
+  white-space: pre-wrap
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -0.5em
+}
+
+sub {
+  bottom: -0.25em
+}
+
+img {
+  border: 0
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 0
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+  border: 0;
+  padding: 0
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0
+}
+
+button,
+input {
+  line-height: normal
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0
+}
+
+.post,
+.page {
+  *zoom: 1
+}
+
+.post:before,
+.page:before,
+.post:after,
+.page:after {
+  display: table;
+  content: " "
+}
+
+.post:after,
+.page:after {
+  clear: both
+}
+
+.container {
+  *zoom: 1;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+@media (min-width: 600px) {
+  .container {
+    *zoom: 1;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    *zoom: 1;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+*::-moz-selection {
+  color: #e1e1e1;
+  background-color: #222
+}
+
+*::selection {
+  color: #e1e1e1;
+  background-color: #222
+}
+
+html {
+  font-size: 112.5%;
+  line-height: 1.55556em
+}
+
+html {
+  background-color: #f5f6f6;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility
+}
+
+@media (min-width: 0) and (max-width: 600px) {
+  html {
+    font-size: 95%
+  }
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #424242;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: none
+}
+
+a {
+  color: #186ad4
+}
+
+a:hover {
+  color: #186ad4
+}
+
+.post__date,
+.page__date {
+  font-size: 16px;
+  font-size: 0.88889rem;
+  line-height: 28px;
+  line-height: 1.55556rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #424242
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #186ad4
+}
+
+h1 {
+  font-size: 32px;
+  font-size: 1.77778rem;
+  line-height: 42px;
+  line-height: 2.33333rem;
+  font-weight: 900
+}
+
+h2 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+h3 {
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+h4 {
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+h5 {
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+h6 {
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+html,
+body {
+  height: 100%
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -4.66667rem
+}
+
+.page-wrap:after {
+  content: "";
+  display: block
+}
+
+.sticky-footer,
+.page-wrap:after {
+  height: 4.66667rem
+}
+
+hr {
+  width: 40%;
+  border: 0;
+  border-top: 2px solid #666;
+  border-top: 0.11111rem solid #666;
+  margin-top: 54px;
+  margin-top: 3rem;
+  margin-bottom: 70px;
+  margin-bottom: 3.88889rem;
+  position: relative
+}
+
+hr:after {
+  content: "";
+  height: 4px;
+  height: 0.22222rem;
+  width: 80%;
+  background: #666;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  bottom: -0.05556rem;
+  margin-left: -40%
+}
+
+p,
+ul,
+ol {
+  margin-top: 28px;
+  margin-top: 1.55556rem;
+  padding-top: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+  padding-bottom: 0rem;
+  margin-bottom: 28px;
+  margin-bottom: 1.55556rem
+}
+
+p h1,
+p h2,
+p h3,
+p h4,
+p h5,
+h6+p,
+ul h1,
+ul h2,
+ul h3,
+ul h4,
+ul h5,
+h6+ul,
+ol h1,
+ol h2,
+ol h3,
+ol h4,
+ol h5,
+h6+ol {
+  margin-top: 0px;
+  margin-top: 0rem
+}
+
+pre {
+  margin-top: 28px;
+  margin-top: 1.55556rem;
+  margin-bottom: 42px;
+  margin-bottom: 2.33333rem
+}
+
+h1 {
+  margin-top: 42px;
+  margin-top: 2.33333rem;
+  margin-bottom: 28px;
+  margin-bottom: 1.55556rem
+}
+
+h2 {
+  margin-top: 42px;
+  margin-top: 2.33333rem;
+  margin-bottom: 28px;
+  margin-bottom: 1.55556rem
+}
+
+h3 {
+  margin-top: 28px;
+  margin-top: 1.55556rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.77778rem
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: 28px;
+  margin-bottom: 1.55556rem;
+  margin-top: 0px;
+  margin-top: 0rem;
+  padding-top: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+  padding-bottom: 0rem;
+  margin-bottom: 0px;
+  margin-bottom: 0rem
+}
+
+code,
+tt {
+  font-size: 16px;
+  font-size: 0.88889rem;
+  line-height: 28px;
+  line-height: 1.55556rem;
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: pre-wrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  position: relative;
+  top: 1px;
+  top: 0.05556rem
+}
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent
+}
+
+.tomorrow-comment,
+pre .comment,
+pre .title {
+  color: #999999
+}
+
+.tomorrow-red,
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #f2777a
+}
+
+.tomorrow-orange,
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+  color: #f99157
+}
+
+.tomorrow-yellow,
+pre .class,
+pre .ruby .class .title,
+pre .css .rules .attribute {
+  color: #ffcc66
+}
+
+.tomorrow-green,
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+  color: #99cc99
+}
+
+.tomorrow-aqua,
+pre .css .hexcolor {
+  color: #66cccc
+}
+
+.tomorrow-blue,
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #6699cc
+}
+
+.tomorrow-purple,
+pre .keyword,
+pre .javascript .function {
+  color: #cc99cc
+}
+
+code {
+  background: rgba(250, 237, 49, 0.2);
+  font-family: "Inconsolata", Menlo, Monaco, Consolas, monospace;
+  vertical-align: top;
+  margin: 0 0.2em
+}
+
+pre {
+  background: #222
+}
+
+pre code {
+  padding: 14px;
+  padding: 0.77778rem;
+  margin: 0;
+  display: block;
+  overflow-x: auto;
+  background: none;
+  color: #cccccc;
+  overflow-wrap: normal;
+  white-space: pre;
+  font-size: 16px;
+  font-size: 0.88889rem;
+  line-height: 28px;
+  line-height: 1.55556rem
+}
+
+pre code[class^="lang-markdown"],
+pre code[class^="lang-text"] {
+  white-space: pre-wrap
+}
+
+.site-content {
+  padding-top: 84px;
+  padding-top: 4.66667rem;
+  padding-bottom: 84px;
+  padding-bottom: 4.66667rem
+}
+
+@media (min-width: 1000px) {
+  .post__content,
+  .post__title,
+  .post__footer,
+  .page__content,
+  .page__title,
+  .page__footer {
+    width: 74.57627%;
+    float: right
+  }
+  .post__content,
+  .post__title,
+  .post__footer,
+  .page__content,
+  .page__title,
+  .page__footer {
+    position: relative
+  }
+}
+
+.post__date,
+.page__date,
+.post__date,
+.page__date {
+  padding-top: 14px;
+  padding-top: 0.77778rem;
+  color: #666
+}
+
+.post__footer,
+.page__footer,
+.post__footer,
+.page__footer {
+  margin-top: 56px;
+  margin-top: 3.11111rem;
+  font-style: italic
+}
+
+.post__title,
+.page__title,
+.post__title,
+.page__title {
+  margin-top: 0px;
+  margin-top: 0rem
+}
+
+.post *:first-child,
+.page *:first-child {
+  margin-top: 0px;
+  margin-top: 0rem
+}
+
+.post aside,
+.post .footnotes,
+.page aside,
+.page .footnotes {
+  font-size: 16px;
+  font-size: 0.88889rem;
+  line-height: 28px;
+  line-height: 1.55556rem;
+  padding: 14px;
+  padding: 0.77778rem
+}
+
+.post .footnotes>ol,
+.page .footnotes>ol {
+  padding-left: 1em;
+  margin-top: 28px;
+  margin-top: 1.55556rem
+}
+
+.post aside,
+.page aside {
+  background: #e1e1e1
+}
+
+.post aside .ref-mark,
+.page aside .ref-mark {
+  float: left;
+  margin-right: 0.4em;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  line-height: 28px;
+  line-height: 1.55556rem;
+  position: relative;
+  top: -5px;
+  top: -0.27778rem
+}
+
+.post aside .ref-mark+*,
+.page aside .ref-mark+* {
+  margin-top: 0px;
+  margin-top: 0rem
+}
+
+.post aside *:last-child,
+.page aside *:last-child {
+  margin-bottom: 0px;
+  margin-bottom: 0rem
+}
+
+.post aside+aside,
+.page aside+aside {
+  margin-top: 28px;
+  margin-top: 1.55556rem
+}
+
+@media (min-width: 1000px) {
+  .post aside,
+  .page aside {
+    float: left;
+    clear: left;
+    width: 35.89744%;
+    width: 35.89744%;
+    margin-right: -35.89744%;
+    margin-right: -35.89744%;
+    position: relative;
+    right: 38.46154%;
+    right: 38.46154%
+  }
+}
+
+</style>
+
+        <script src="./lib/jquery.min.js"></script>
+        <script src="./lib/jquery.sidenotes.min.js"></script>
+        <script src="./lib/response.min.js"></script>
+        <script src="./lib/mousetrap.min.js"></script>
+        <script src="./lib/highlight.pack.js"></script>
+    </head>
+    <body>
+
+        <div class="site-content">
+          <div class="page container">
+            <div class="page__content">
+              <h1 id="jquerysidenotes">jQuery.sidenotes</h1>
+
+<p><em>By <a href="http://andrewphilipclark.com/hi">Andrew Clark</a></em></p>
+
+<p>Transform <a href="http://daringfireball.net/projects/markdown/">Markdown</a> footnotes into superpowered<sup id="fnref:notes"><a href="#fn:notes" class="footnote">1</a></sup> sidenotes.</p>
+
+<p>Try it out now by changing the size of your browser window. At full width, notes on this page are rendered as sidenotes. At medium width, they are placed directly after their reference in the text. At small widths, they are rendered as normal footnotes.</p>
+
+<p>You can also use this page’s <a href="#api">key bindings</a> to experiment with the API. For example, press <strong>h</strong> and watch what happens. (Press <strong>s</strong> to reverse the change.)</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Transform your footnotes into sidenotes.</li>
+  <li>Toggle between footnotes and sidenotes, for instance, in responsive designs.</li>
+  <li>Toggle between placing the sidenotes before<sup id="fnref:before"><a href="#fn:before" class="footnote">2</a></sup> or after their reference in the text.</li>
+  <li>Enable reference-less (numberless) sidenotes, using a custom regular expression.<sup id="fnref:nonumber-sn"><a href="#fn:nonumber-sn" class="footnote">3</a></sup></li>
+  <li>Works with any Markdown processor.</li>
+  <li>Nested footnotes (footnotes inside footnotes) work, too!</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>Grab <code class="highlighter-rouge">jquery.sidenotes.min.js</code> from the <a href="https://github.com/acdlite/jquery.sidenotes">GitHub repo</a>, upload it to a server, and add it to your document’s head:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;script src="jquery.sidenotes.min.js"&gt;&lt;/script&gt;
+</code></pre>
+</div>
+
+<h3 id="with-bower">With Bower</h3>
+
+<p>jQuery.sidenotes is available as a <a href="http://bower.io">Bower</a> package.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>bower install jquery.sidenotes --save
+</code></pre>
+</div>
+
+<h2 id="usage">Usage</h2>
+
+<p>Use of jQuery.sidenotes requires a working knowledge of JavaScript, jQuery, and CSS. I realize this can be frustrating for non-programmers, who may wish for a one-size-fits-all approach. Please <a href="https://github.com/acdlite/jquery.sidenotes/issues/new">submit an issue</a> if you have any usability concerns or suggestions.</p>
+
+<p>Apply the plugin to a jQuery object consisting of each post/document container on the page. The post container can be <strong>any ancestor element of the Markdown-generated content, but there must be only one post container per post.</strong><sup id="fnref:wrapper"><a href="#fn:wrapper" class="footnote">4</a></sup></p>
+
+<p>With no configuration (use sensible defaults):</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">();</span>
+</code></pre>
+</div>
+
+<p>Or, pass an options object:</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">({</span>
+  <span class="s1">'removeRefMarkRegex'</span><span class="p">:</span>     <span class="o">/-</span><span class="nx">sn$</span><span class="o">/</span><span class="p">,</span>
+  <span class="s1">'initiallyHidden'</span><span class="p">:</span>        <span class="kc">true</span>
+<span class="p">});</span>
+</code></pre>
+</div>
+
+<h3 id="basic">Basic</h3>
+
+<p>By default, footnotes are transformed into <code class="highlighter-rouge">aside</code> elements and placed into the document near their reference.</p>
+
+<p>Please note that, by design, jQuery.sidenotes does not apply any CSS styling. It’s up to you to style the generated sidenotes using appropriate selectors.<sup id="fnref:style"><a href="#fn:style" class="footnote">5</a></sup></p>
+
+<h3 id="advanced">Advanced</h3>
+
+<p>Built-in methods allow you to toggle between footnotes and sidenotes.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="c1">// Hide the sidenotes, show the footnotes</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">(</span><span class="s1">'hide'</span><span class="p">);</span>
+
+<span class="c1">// Show the sidenotes, hide the footnotes</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">(</span><span class="s1">'show'</span><span class="p">);</span>
+</code></pre>
+</div>
+
+<p>This is perfect for responsive designs, where you may only want to use sidenotes when the screen is large enough to accomodate them.</p>
+
+<p>By default, sidenotes are placed <em>before</em> their reference in the text. This is due to the expectation that most designers will want to float them so that they are adjacent to their reference. However, if the sidenotes are not floated, it’s probably better to place them <em>after</em> their reference in the text, so that the note does not appear before the reference. You can update the <code class="highlighter-rouge">sidenotePlacement</code> property to toggle between the two states.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="c1">// Place the sidenotes after their references</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">(</span><span class="s1">'sidenotePlacement'</span><span class="p">,</span> <span class="s1">'after'</span><span class="p">)</span>
+
+<span class="c1">// Place the sidenotes before their references</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.post'</span><span class="p">).</span><span class="nx">sidenotes</span><span class="p">(</span><span class="s1">'sidenotePlacement'</span><span class="p">,</span> <span class="s1">'before'</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p>You can set the initial <code class="highlighter-rouge">sidenotePlacement</code> in the options object.</p>
+
+<h2 id="options">Options</h2>
+
+<p>jQuery.sidenotes is designed to work with zero configuration while also being highly configurable. You can set the following options by passing them as a JSON object to the plugin constructor.</p>
+
+<h3 id="initiallyhidden">initiallyHidden</h3>
+
+<p>By default, the sidenotes are shown immediately after they are created during plugin initialization. By setting this to <code class="highlighter-rouge">true</code>, the sidenotes will remain hidden until explicitly shown with <code class="highlighter-rouge">$.fn.asides('show')</code>.</p>
+
+<p>Default: <code class="highlighter-rouge">false</code></p>
+
+<h3 id="sidenoteplacement">sidenotePlacement</h3>
+
+<p>By default, the sidenotes are initially placed <em>before</em> their reference in the text, with the expectation that they will be floated. To place them <em>after</em> their reference, set this to <code class="highlighter-rouge">'after'</code>.</p>
+
+<p>Default: <code class="highlighter-rouge">'before'</code></p>
+
+<h3 id="removerefmarkregex">removeRefMarkRegex</h3>
+
+<p>Use to enable numberless, or reference-less, sidenotes. Footnote IDs that match this regular expression will be displayed without a number.<sup id="fnref:refless-sn"><a href="#fn:refless-sn" class="footnote">6</a></sup> The reference mark in the document will be hidden, and the notes that follow will be renumbered accordingly. When the sidenotes are hidden, the original references are restored.</p>
+
+<p>The default regular expression will not match any footnote.</p>
+
+<p>Default: <code class="highlighter-rouge">/(?!)/</code></p>
+
+<h3 id="sidenoteelement">sidenoteElement</h3>
+
+<p>The element type of the sidenotes.</p>
+
+<p>Default: <code class="highlighter-rouge">'aside'</code></p>
+
+<h3 id="sidenotegroupelement">sidenoteGroupElement</h3>
+
+<p>Sidenotes<sup id="fnref:grouped1"><a href="#fn:grouped1" class="footnote">7</a></sup> that are placed next to each other<sup id="fnref:grouped2"><a href="#fn:grouped2" class="footnote">8</a></sup> in the document are automatically wrapped in a container element. This is the element type of the container.</p>
+
+<p>Default: <code class="highlighter-rouge">'div'</code></p>
+
+<h3 id="sidenoteclass">sidenoteClass</h3>
+
+<p>The class that is added to each sidenote.</p>
+
+<p>Default: <code class="highlighter-rouge">'sidenote'</code></p>
+
+<h3 id="sidenotegroupclass">sidenoteGroupClass</h3>
+
+<p>The class that is added to each group.</p>
+
+<p>Default: <code class="highlighter-rouge">'sidenote-group'</code></p>
+
+<h3 id="refmarkclass">refMarkClass</h3>
+
+<p>The class that is added to each sidenote’s reference mark.</p>
+
+<p>Default: <code class="highlighter-rouge">'ref-mark'</code></p>
+
+<h2 id="additional-options-for-selectors">Additional options for selectors</h2>
+
+<p>There is some variation in how Markdown processors generate the markup for footnotes. The default options have been chosen to work across all of them, but if they do not, trying passing a new <code class="highlighter-rouge">footnoteContainerSelector</code> or <code class="highlighter-rouge">footnoteSelector</code> as options. If you’re still having problems with your Markdown processor, please <a href="https://github.com/acdlite/jquery.sidenotes/issues/new">submit an issue</a>.</p>
+
+<h3 id="footnotecontainerselector">footnoteContainerSelector</h3>
+
+<p>jQuery selector string for the footnote container. This selector is run within the context of the post container.</p>
+
+<p>Default: <code class="highlighter-rouge">'.footnotes'</code></p>
+
+<h3 id="footnoteselector">footnoteSelector</h3>
+
+<p>jQuery selector string for the footnotes. This selector is run within the context of the footnote container.</p>
+
+<p>Default: <code class="highlighter-rouge">'&gt; ol &gt; li'</code></p>
+
+<h2 id="api">API</h2>
+
+<p>On this page, you can use the following key bindings to test the API:</p>
+
+<ul>
+  <li>s – <code class="highlighter-rouge">$.fn.sidenotes('show')</code></li>
+  <li>h – <code class="highlighter-rouge">$.fn.sidenotes('hide')</code></li>
+  <li>b – <code class="highlighter-rouge">$.fn.sidenotes('sidenotePlacement', 'before')</code></li>
+  <li>a – <code class="highlighter-rouge">$.fn.sidenotes('sidenotePlacement', 'after')</code></li>
+</ul>
+
+<h3 id="fnsidenotesoptions">$.fn.sidenotes(options)</h3>
+
+<p>Sets up the document. Apply to each post/document container. A post container must contain both the content of the post and its footnotes.</p>
+
+<p>Optionally, you can pass an options object.</p>
+
+<h3 id="fnsidenotesshow">$.fn.sidenotes(‘show’)</h3>
+
+<p>Shows the sidenotes and hides the footnotes.</p>
+
+<h3 id="fnsidenoteshide">$.fn.sidenotes(‘hide’)</h3>
+
+<p>Hides the sidenotes and shows the footnotes.</p>
+
+<h3 id="fnsidenotesishidden">$.fn.sidenotes(‘isHidden’)</h3>
+
+<p>Returns <code class="highlighter-rouge">true</code> if the sidenotes are hidden.</p>
+
+<h3 id="fnsidenotessidenoteplacement-placement">$.fn.sidenotes(‘sidenotePlacement’, placement)</h3>
+
+<p>Changes the placement of the sidenotes to either before or after their references in the text. Accepted values are <code class="highlighter-rouge">'before'</code> or <code class="highlighter-rouge">'after'</code>.</p>
+
+<p>If no arguments are passed, or if the <code class="highlighter-rouge">placement</code> argument is invalid, this returns the current <code class="highlighter-rouge">sidenotePlacement</code>.</p>
+
+<h3 id="fnsidenotesdestroy">$.fn.sidenotes(‘destroy’)</h3>
+
+<p>Destroys the plugin instance. Removes the sidenotes and shows the footnotes.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>jQuery</li>
+  <li>Markdown-generated content, or markup that mimics it.</li>
+</ul>
+
+<h2 id="showcase">Showcase</h2>
+
+<p>If you use this plugin in one of your projects, please let me know<sup id="fnref:pull"><a href="#fn:pull" class="footnote">9</a></sup> and I’ll add it here.</p>
+
+<h2 id="license">License</h2>
+
+<p>Copyright 2013<br />
+<a href="http://andrewphilipclark.com">Andrew Clark</a></p>
+
+<p>Licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a></p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:notes">
+      <p>Wanna see something cool? Resize this page and watch how this note adapts to different screen sizes. <a href="#fnref:notes" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:before">
+      <p>Useful for floated sidenotes. <a href="#fnref:before" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:nonumber-sn">
+      <p>This sidenote doesn’t have a reference. <a href="#fnref:nonumber-sn" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:wrapper">
+      <p>If you’re experiencing unexpected behavior, this is likely your problem. <a href="#fnref:wrapper" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:style">
+      <p>You can use CSS media queries to target specific screen sizes. <a href="#fnref:style" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:refless-sn">
+      <p>This page’s <code class="highlighter-rouge">removeRefMarkRegex</code> is <code class="highlighter-rouge">/-sn$/</code>, and the footnote ID corresponding to this note is <code class="highlighter-rouge">fn:refless-sn</code>. Therefore, the sidenote is rendered without a reference. <a href="#fnref:refless-sn" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:grouped1">
+      <p>This sidenote and the next one… <a href="#fnref:grouped1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:grouped2">
+      <p>… are part of a sidenote group. <a href="#fnref:grouped2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:pull">
+      <p>Or even better, submit a <a href="https://github.com/acdlite/jquery.sidenotes">pull request</a>. <a href="#fnref:pull" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+            </div>
+          </div>
+        </div>
+
+        <script src="./lib/footer.js"></script>
+    </body>
+</html>
