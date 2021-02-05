@@ -1,4 +1,4 @@
-tags: Escrita, Apps  
+tags: Escrita, Apps, Markdown  
 hashtags: #Escrita, #Apps  
 permalink: /markdown-versus-word
 
@@ -19,7 +19,6 @@ Em segundo lugar, há uma demanda sendo constantemente imposta aos usuários de 
 A despeito de tudo isso, o poder de empresas como a *Microsoft* é tão grande que muitos, na academia e fora dela, não conseguem sequer conceber a possibilidade de escrever utilizando alguma ferramenta diferente do *Microsoft Word*. Quando muito, utiliza-se a versão gratuita de código aberto que tenta ao máximo imitar o modelo da versão paga. Optar pelo software livre é uma excelente ideia, claro, mas como espero ter deixado claro, esse não é o problema real. Não há sentido em mudar para a versão gratuita de código aberto de um modelo ruim de software.  
 
 Mas se o não com o *Word*, então como...?  
-
 
 ## Sugestão: escreva em Markdown  
 
