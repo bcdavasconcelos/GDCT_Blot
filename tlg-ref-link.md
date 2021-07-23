@@ -2,11 +2,10 @@ tags: Fontes primárias, TLG
 hashtags: #Fontes-primárias, #TLG  
 permalink: /tlg-ref-link
 
-# Autores/as e textos antigos
+# Lista de autores antigos com links para o TLG, Diogenes e Perseus Catalog
 
 <!-- to-do -->
 <!-- Substituir link do Diogenes pela versão mais curta -->
-<!-- Substituir link do tlg pela versão correta -->
 <!-- Add links para Perseus DL e Scaife Viewer -->
 
 Essa é a lista principal com os autores gregos, e suas respectivas obras, que estão no TLG. Há uma lista separada para os [autores presentes na edição Diels-Kranz](dk-autores). Para entender como foram gerados os links, confira [essa página](tlg-links).   
@@ -17,8 +16,6 @@ Se você usa macOS, então não deixe de conferir o [projeto Corpora](http://www
 
 Atenção: o Diogenes precisa estar rodando para que os links funcionem.  
 
-<details>
-  <summary>TLG: autores gregos e suas obras</summary>
 
 | Código TLG | Autor | Obra | TLG Online | Diogenes | Perseus Catalog |
 |----|----|----|----|----|----|
@@ -6638,5 +6635,3 @@ Atenção: o Diogenes precisa estar rodando para que os links funcionem.
 | 9068.001 | Philo Carpasianus | Epistula ad Eucarpium (e cod. Sabb. 408 fol. 34-40) | [TLG Online](http://stephanus.tlg.uci.edu/Iris/Cite?9068:001:0) | [Diogenes](http://localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=9068&workXXstate=001) | [Perseus Catalog](https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg9068.tlg001) |
 | 9068.002 | Philo Carpasianus | Enarratio in canticum canticorum | [TLG Online](http://stephanus.tlg.uci.edu/Iris/Cite?9068:002:0) | [Diogenes](http://localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=9068&workXXstate=002) | [Perseus Catalog](https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg9068.tlg002) |
 | 9069.001 | Matthaeus Myrinaeus | Vita sanctae Parascevae | [TLG Online](http://stephanus.tlg.uci.edu/Iris/Cite?9069:001:0) | [Diogenes](http://localhost:8888/Diogenes.cgi?short_typeXXstate=tlg&current_pageXXstate=browser_passage&authorXXstate=9069&workXXstate=001) | [Perseus Catalog](https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg9069.tlg001) |
-
-</details>

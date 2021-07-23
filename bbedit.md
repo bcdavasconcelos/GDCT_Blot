@@ -7,7 +7,12 @@ permalink: /bbedit
 
 O [BBEdit](https://www.barebones.com/products/bbedit/) (apenas macOS) é o processador que passo mais tempo utilizando. É mais rápido do que o bloco de notas, abre praticamente qualquer tipo de arquivo contendo texto (incluindo até mesmo imagens de disco, i.e. arquivos **.dmg**), é capaz de fazer buscas e substituições em pastas inteiras sem a necessidade de abrir qualquer arquivo e possui uma ferramenta especial, o *text factory*, que é muito útil para automatizar certos processos com texto. Além disso, é o que está melhor integrado ao macOS e pode ser utilizado indefinidamente com as funções mais importantes sem a necessidade de uma licença (mas para acessar tudo que o aplicativo oferece é preciso adquirir uma).
 
-## Algumas utilidades
+## Links
+
+- [BBEdit Guide](https://bbedit-guide.netlify.app/index.html) oferece excelentes dicas sobre como utilizar o programa para criar páginas HTML e administrar websites.
+
+
+## Utilidades
 
 ### Tornar markdown o formato padrão para novos arquivos
 

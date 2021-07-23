@@ -157,7 +157,7 @@ Gerenciadores cumprem, então, ao menos dois papeis importantes:
 
 Eis alguns gerenciadores de bibliografia que você pode experimentar:  
 
-- [Bookends](https://www.sonnysoftware.com) ()  
+- [Bookends](bookends) ()  
     - [Scripts para o Bookends](be-scripts)  
 - [Zotero](https://www.zotero.org) (Win, Mac & Linux)
 - [Mendeley](https://www.mendeley.com)
@@ -169,7 +169,7 @@ Eis alguns gerenciadores de bibliografia que você pode experimentar:
 
 - ⚡️ [Anystyle.io](https://anystyle.io) *Para gerar um arquivo bibtex a partir da sua bibliografia ou convertê-la em outro sistema (APA, ABNT, etc).*  
 - 🔍 [Ottobib](http://www.ottobib.com) *Encontre referências a partir do ISBN.*  
-
+- [PDF Grep](https://pdfgrep.org/index.html) Ferramenta para linha de comando que permite fazer buscas em (qualquer número de) PDFs usando [RegEx](regex).
 
 ### Guias para ajudar a estruturar o trabalho com textos acadêmicos
 - [How To Read Scientific Papers](https://towardsdatascience.com/how-to-read-scientific-papers-df3afd454179)

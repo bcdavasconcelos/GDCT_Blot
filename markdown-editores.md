@@ -1,6 +1,6 @@
 tags: Escrita, Apps, Markdown
 hashtags: #Escrita, #Apps
-permalink: /markdown
+permalink: /markdown-editores
 
 # Editores de Markdown
 

@@ -2,7 +2,7 @@ tags: Fontes primárias, TLG, Diogenes
 hashtags: #Fontes-primárias, #TLG, #Diogenes  
 permalink: /diogenes-favoritos
 
-# Salvando páginas do Diogenes nos favoritos  
+# Usando o Diogenes no navegador e guardando links para os textos nos favoritos
   
 Já pensou como seria poder salvar uma página de texto do Diogenes nos seus favoritos?  
   

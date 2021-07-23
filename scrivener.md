@@ -23,7 +23,9 @@ Essas são apenas algumas das funções que o Scrivener oferece. Ele é de longe
 
 
 ## Download
-[MacOS](https://www.literatureandlatte.com/download_action.php?url=https://scrivener.s3.amazonaws.com/Scrivener.dmg), [Windows-64](https://www.literatureandlatte.com/scrivenerforwindows/beta/Scrivener-29914-installer_x64.exe), [Windows-32](https://www.literatureandlatte.com/scrivenerforwindows/beta/Scrivener-29914-installer_x86.exe) 
+[MacOS](https://www.literatureandlatte.com/download_action.php?url=https://scrivener.s3.amazonaws.com/Scrivener.dmg), [Windows-64](https://www.literatureandlatte.com/scrivenerforwindows/beta/Scrivener-29916-installer_x64.exe), [Windows-32](https://www.literatureandlatte.com/scrivenerforwindows/beta/Scrivener-29916-installer_x86.exe)
+
+Se o link para a versão do Windows não funcionar, você encontrará [nessa página](https://www.literatureandlatte.com/forum/viewtopic.php?f=57&t=40621) o link para o download da versão mais recente.
 
 ## Referências úteis  
 

@@ -7,7 +7,7 @@ Olá, sou Bernardo C.D.A. Vasconcelos. Seja bem-vindo ao GDCT.
 
 Esse projeto nasceu com o propósito de compartilhar e difundir recursos digitais de pesquisa em ciências humanas que encontrei ao longo de minha pesquisa de doutorado junto à [linha de Filosofia Antiga e Medieval](http://filosofiantigaufmg.blogspot.com.br) do [PPG em Filosofia](https://filosofia.fafich.ufmg.br/pos-graduacao/) da Universidade Federal de Minas Gerais[^2].  
 
-Você pode navegar pelo site usando o sistema de *[tags](https://gdct.blot.im/tags)*[^3], conferindo [a lista completa de artigos](https://gdct.blot.im/archives) selecionando o título do projeto no cabeçalho ou utilizando a [busca textual](https://gdct.blot.im/search). Para alternar entre os modos de exibição claro e escuro, basta clicar no ícone com o sol ou a lua no cabeçalho.
+Há várias maneiras de navegar pelo site. Você pode utilizar o sistema de *[tags](https://gdct.blot.im/tags)*[^3], conferir [a lista completa de artigos](https://gdct.blot.im/archives) clicando no título do projeto que fica no cabeçalho ou utilizando a [busca textual](https://gdct.blot.im/search). Para alternar entre os modos de exibição claro e escuro, basta clicar no ícone com o sol ou a lua no cabeçalho.
 
 ## Cursos sobre o guia
 

@@ -1,5 +1,5 @@
 permalink: /abnt-biblio-corpo
-tags: ABNT
+tags: ABNT, Estudos clássicos
 hashtags: #ABNT
 
 # Referências bibliográficas no corpo do texto
@@ -11,20 +11,34 @@ hashtags: #ABNT
 
 ## Autores antigos
 
-- A área de estudos clássicos tem algumas particularidades que se sobrepõe às regras da ABNT e que devem ser estritamente observadas.
-1. Autores antigos jamais devem ser citados a partir de traduções modernas e sem consulta a uma edição crítica do texto original. (Não há necessidade de incluir o ano da publicação da edição crítica do texto na citação em linha.)
-2. Abreviações podem (e devem) ser utilizadas para fazer referência aos textos, sempre em conformidade com o padrão estabelecido por algum dos sistemas disponíveis:
-	- LSJ = [Dicionário Liddell, Scott & Jones no TLG](http://stephanus.tlg.uci.edu/lsj/01-authors_and_works.html)  ou no [Perseus](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Afrontmatter%3D1).
-	- DGE = [Dicionário Griego-Español](http://dge.cchs.csic.es/lst/lst4.htm)
-	- OCD = [Oxford Classical Dictionary](https://oxfordre.com/classics/page/ocdabbreviations/abbreviations)
-3. Tenha sempre o cuidado de indicar, além da obra e da página, as linhas que estão sendo citadas e não se esqueça de incluir a edição crítica do original na bibliografia!
+A área de estudos clássicos tem algumas particularidades que se sobrepõe às regras da ABNT e que devem ser estritamente observadas.
 
-### Exemplos
+Em primeiro lugar, autores antigos **não** devem ser citados a partir de traduções modernas  e sem consulta a uma edição crítica do texto original.
 
 - ❌ ~~Aristóteles (2015, p. 10) afirma que...~~
-- ❌ ~~Aristóteles afirma em *EN* II 3 (1104b) que...~~
-- ✅  Aristóteles afirma em *EN* II 3 (1104b05-1105a17) que...
 
+A edição crítica utilizada como fonte do texto grego pode ser explicitada em uma nota de rodapé acompanhando a primeira citação ou em uma advertência antes do princípio do texto. 
+
+- ✅ Todas as citações da *EN* de Aristóteles são do texto estabelecido por I. Bywater (OCT, 1890).
+
+Abreviações podem (e devem) ser utilizadas para fazer referência aos textos, sempre em conformidade com o padrão estabelecido por algum dos sistemas disponíveis, como o do Dicionário Liddell, Scott & Jones ([disponível no TLG](http://stephanus.tlg.uci.edu/lsj/01-authors_and_works.html) e no [Perseus](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Afrontmatter%3D1)), do [Dicionário Griego-Español](http://dge.cchs.csic.es/lst/lst4.htm) ou do [Oxford Classical Dictionary](https://oxfordre.com/classics/page/ocdabbreviations/abbreviations)
+- ✅  Aristóteles afirma em *EN* II 3 (1104b05-1105a17) que...
+	
+
+Tenha sempre o cuidado de indicar, além da obra e da página, as linhas que estão sendo citadas e não se esqueça de incluir a edição crítica do original na bibliografia!
+
+- ❌ ~~Aristóteles afirma em *EN* II 3 (1104b) que...~~
+
+
+Nas citações em bloco, similarmente, é importante incluir o nome do tradutor da passagem com o ano de publicação:
+
+> Que, então, a temperança é por um lado uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, com relação às quais também se manifesta a intemperança (*EN* III 10, 1117b24-27. Tradução de Fulano de tal, 2020).
+
+É sempre uma boa ideia incluir o texto da citação em bloco no idioma original, sobretudo nos casos em que a tradução e a interpretação dos trechos citados desempenham um papel importante no texto.
+
+> Das partes homogéneas, a mais comum em todos os animais sanguíneos é o sangue, como também o elemento em que o sangue naturalmente circula (o chamado vaso); (Tradução de Ciclano de tal, 2010)
+
+> Τῶν δ᾿ ὁμοιομερῶν κοινότατον μέν ἐστι τὸ αἷμα πᾶσι τοῖς ἐναίμοις ζῴοις καὶ τὸ μόριον ἐν ᾧ πέφυκεν ἐγγίγνεσθαι (τοῦτο δὲ καλεῖται φλέψ)… (*HA* III 3, 511b01-03)
 
 ## Alguns cuidados
 

@@ -1,7 +1,9 @@
-tags: Ferramentas filológicas, 
-hashtags: #Ferramentas-filológicas, 
+tags: Ferramentas filológicas
+hashtags: #Ferramentas-filológicas
 permalink: /fontes-tipograficas
 
-# Fontes gregas  
+# Fontes gregas   
+
+
 [Eis algumas fontes gregas (com serifa, sem serifa, mono-espaçadas e proporcionais) que possuem todos os diacríticos.](https://www.dropbox.com/sh/nh3o247ha3grrxo/AACX9n56cu-d45ko8OjJX37ya?dl=0)
 

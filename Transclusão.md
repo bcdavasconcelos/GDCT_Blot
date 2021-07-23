@@ -1,4 +1,5 @@
 tags: Glossário
+hashtags: #Glossário
 
 # Transclusão
 

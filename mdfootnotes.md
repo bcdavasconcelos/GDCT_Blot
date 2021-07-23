@@ -78,6 +78,7 @@ python inliner.py "~/Dropbox/Markdown/Arquivo1.md" "~/Dropbox/Markdown/Arquivo1M
 ## Script
 
 ```language-python
+
 #!/usr/bin/env python
 # inliner - converts reference-style Markdown endnotes to
 # Pandoc Markdown's inline footnotes
@@ -129,6 +130,7 @@ else:
 
 with open(sys.argv[2], "w") as output:
     output.write(text)
+    
 ```
 
 [^1]: Utilizando a linha vazia entre os parágrafos como delimitador.  

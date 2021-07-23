@@ -2,7 +2,7 @@ tags: Fontes primárias, TLG
 hashtags: #Fontes-primárias, #TLG  
 permalink: /tlg-betacode
 
-# Extraindo textos do TLG  
+# Convertendo para unicode textos do TLG em betacode
 
 Se você já teve a curiosidade de conferir os arquivos do banco de dados do TLG[^1], deve ter percebido que são apenas arquivos de texto plano numerados sequencialmente e com conteúdo praticamente ilegível.  
 

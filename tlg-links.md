@@ -1,7 +1,7 @@
 tags: Fontes primárias, TLG
 permalink: /tlg-links
 
-# Como funcionam os links do TLG?
+# Breve explicação sobre a estrutura dos links do TLG
 ## TLG Online  
 
 Links do TLG Online tem a seguinte estrutura:  

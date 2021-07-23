@@ -2,7 +2,7 @@ permalink: /abnt-normas
 tags: ABNT
 hashtags: #ABNT
 
-# Normas ABNT
+# Normas ABNT - Sumário
 
 1. [Formatação do texto acadêmico](abnt-formatação)
 2. [Referências bibliográficas no corpo do texto](abnt-biblio-corpo)

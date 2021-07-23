@@ -1,4 +1,4 @@
-tags: Apps, Automação, Organização
+tags: Apps, Automação, Organização, Bookends
 permalink: /be-scripts
 
 # Scripts para o Bookends
@@ -11,4 +11,4 @@ Eis uma pequena coleção de scripts para utilizar com o [Bookends](bib-managers
 
 [DEVONthink 3 para o Bookends](https://www.dropbox.com/s/3rorjdqudne5kc4/DT3%20to%20Bookends.scpt?dl=1) - Esse script copia os metadados do *record* selecionado no *DT3* e copia para a entrada selecionada no Bookends.  
 
-[Bookends para o Tinderbox](https://www.dropbox.com/s/oaits4g6cqekthv/Bookends%20to%20Tinderbox.scpt?dl=1) - É possível adicionar um referência do *Bookends* no *Tinderbox* apenas clicando e arrastando ela para o projeto desejado e pressionando ⌃⌥. Na minha experiência, entretanto, esse método deixa de transferir algumas informações e não cria um vínculo entre a referência no *Bookends* e a nota no *Tinderbox*, por isso escrevi esse script.
+[Bookends para o Tinderbox](tbx-be) - É possível adicionar um referência do *Bookends* no *Tinderbox* apenas clicando e arrastando ela para o projeto desejado e pressionando ⌃⌥. Na minha experiência, entretanto, esse método deixa de transferir algumas informações e não cria um vínculo entre a referência no *Bookends* e a nota no *Tinderbox*, por isso escrevi esse script.

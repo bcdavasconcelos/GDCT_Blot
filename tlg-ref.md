@@ -2,7 +2,7 @@ tags: Fontes primárias, TLG
 hashtags: #Fontes-primárias, #TLG
 permalink: /tlg-ref
 
-# Ids das obras gregas
+# Lista de obras e autores antigos com seus respectivos IDs
 
 Essa é a lista principal com os autores gregos, e suas respectivas obras, que estão no TLG e no Perseus. Há uma [versão dessa lista com links](tlg-ref-link) para acessar os textos e a bibliografia associada à obra; e uma outra lista separada com os [autores presentes na edição Diels-Kranz](dk-autores).
 

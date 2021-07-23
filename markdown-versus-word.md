@@ -1,11 +1,13 @@
-tags: Escrita, Apps, Markdown  
+tags: Editores de texto, Processadores de texto, Apps, Markdown  
 hashtags: #Escrita, #Apps  
 permalink: /markdown-versus-word
 
 # Por que deveríamos parar de usar o Word  
+
 <script src="prism.js"></script>
 
 ## Dois problema com os formatos rtf e docx  
+
 Uns tempos atrás, precisei lidar com arquivos de texto grandes. *Muito grandes*. Para se ter uma ideia, um desses arquivos, que continha todo o *Corpus Aristotelicum*, tinha mais de 6 milhões de caracteres (equivalente a mais de 1 milhão de palavras) e "pesava" mais de 19 MB em formato *txt*. Ou seja, **sem qualquer tipo de formatação e sem nenhuma imagem**.  
 
 Programas como o Microsoft Word não são *sequer* capazes de abrir um arquivo tão grande. Nem o são programas como Open Office, Libre Office & semelhantes. Esses são programas úteis, sem dúvidas, mas padecem da mesma falha fundamental: operam apenas a partir do princípio WYSIWYG (*What You See Is What You Get*).  
@@ -18,78 +20,6 @@ Em segundo lugar, há uma demanda sendo constantemente imposta aos usuários de 
 
 A despeito de tudo isso, o poder de empresas como a *Microsoft* é tão grande que muitos, na academia e fora dela, não conseguem sequer conceber a possibilidade de escrever utilizando alguma ferramenta diferente do *Microsoft Word*. Quando muito, utiliza-se a versão gratuita de código aberto que tenta ao máximo imitar o modelo da versão paga. Optar pelo software livre é uma excelente ideia, claro, mas como espero ter deixado claro, esse não é o problema real. Não há sentido em mudar para a versão gratuita de código aberto de um modelo ruim de software.  
 
-Mas se o não com o *Word*, então como...?  
+Mas se o não com o *Word*, então como...?   
+Sugestão: escreva em [Markdown](markdown).  
 
-## Sugestão: escreva em Markdown  
-
-Para escrever em markdown você pode utilizar absolutamente qualquer programa de texto, do bloco de notas aos [editores de texto](editores-de-texto), passando pelos [editores](markdown-editores) desenvolvidos especificamente para markdown que são bastante úteis.  
-
-Markdown é uma linguagem de marcação[^1] minimalista [criada em 2004](https://daringfireball.net/projects/markdown/) por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) e [Aaron Swartz](http://www.aaronsw.com/weblog/001189) com o propósito de possibilitar a geração de texto *html* — i.e. *hypertext markup language*, a principal linguagem utilizada na internet — a partir de um texto legível e com poucas distrações. O que começou como uma linguagem de marcação, digamos, anêmica e voltada apenas para a internet, evoluiu para uma linguagem extremamente popular com um bom conjunto de funcionalidades, capaz de satisfazer todas as necessidades do mundo científico e acadêmico. Hoje, graças ao Pandoc, já é mais fácil produzir um PDF de excelente qualidade tipográfica no padrão ABNT a partir de um texto plano escrito em Markdown do que utilizando o Microsoft Word.  
-
-## Formatando um texto com markdown  
-
-### Títulos de seções  
-
-São marcados com `#`.  
-Exemplo:  
-
-```language-markdown
-
-# Título  
-## Subtítulo  
-### Subsubtítulo  
-#### Etc...  
-```  
-
-### Citações  
-
-São indicadas pelo maior `>`.  
-Exemplo:  
-
-```language-markdown  
- > Lorem ipsum…  
-```  
-
-### Notas de rodapé  
-
-Podem ser feitas de mais de um modo.  
-Exemplo 1:  
-
-```language-markdown  
-Lorem ipsum[^texto da nota de rodapé].  
-```  
-
-Exemplo 2:  
-```language-markdown    
-Lorem ipsum[^1].  
-Etc.  
-
-[^1]: Texto da nota de rodapé.  
-```  
-
-### Ênfase  
-
-Pode variar, mas no geral é feita com um único asterisco antes e depois para *itálico* e dois asteriscos para **negrito**.  
-Exemplo:  
-
-```language-markdown    
-*Texto em itálico* e **texto em negrito**.  
-```  
-
-### Listas  
-A lista ordenada é indicada por um número `1.` e a lista não ordenada pelo asterisco.  
-
-```language-markdown    
-1. Item 1  
-1. Item 2  
-
-- item  
-- item  
-```  
-
-
-![Multimarkdown Composer](./img/apps/__mmd.png)  
-
-Há bastante material na internet sobre markdown e seus diferentes sub-tipos, mas tudo que você precisa saber está nesse resuminho aí em cima.  
-
-[^1]: Ou seja, é um modo de escrever indicando a estrutura e a formatação no próprio corpo do texto.

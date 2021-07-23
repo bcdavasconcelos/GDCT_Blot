@@ -3,6 +3,7 @@ hashtags: #Automação, #RegEx
 permalink: /regex
 
 # RegEx  
+
 RegEx (expressões regulares) são sequências de caracteres que definem um padrão de pesquisa, comumente utilizados para operações de busca e busca e substituição.
 
 <br>  
@@ -12,6 +13,7 @@ RegEx (expressões regulares) são sequências de caracteres que definem um padr
 <br>  
   
 ## Coringas (a.k.a. wildcard)
+
 Ao fazer uma busca, você pode substituir partes de uma palavra por caracteres coringas que correspondem a um ou mais caracteres (ou mesmo a um intervalo). 
 
 - `?` Corresponde a uma letra ou um número.
@@ -22,6 +24,7 @@ Ao fazer uma busca, você pode substituir partes de uma palavra por caracteres c
 - `\d` Corresponde a qualquer dígito entre 0-9.
 
 ### Intervalos
+
 - `[a-z]` Corresponde ao intervalo entre “a” e “z”.  
 - `[0-9,a-f]` Corresponde a qualquer dígito ou qualquer letra.
 
@@ -32,6 +35,7 @@ Ao fazer uma busca, você pode substituir partes de uma palavra por caracteres c
 <br>  
 
 ## Quantificadores
+
 Quantificadores afetam o caractere ou grupo anterior.
 
 - `*` Corresponde a zero, um ou múltiplos caracteres.
@@ -44,6 +48,7 @@ Quantificadores afetam o caractere ou grupo anterior.
 - `nad.*` pode corresponder a `nada` ou `nadifica`.
 
 ### Quantificadores não-avarentos 
+
 O comportamento padrão dos quantificadores é corresponder ao maior número de caracteres possível. Para ter o comportamento oposto, basta utilizar os quantificadores não avarentos, cuja especificidade é corresponder sempre ao menor número de caracteres.
 
 - `+?` Corresponde a um ou mais.
@@ -65,6 +70,7 @@ Tomando a paravra `Alfabeto` como exemplo:
 <br>  
 
 ## Posição
+
 Algumas expressões especiais podem ajudar a refinar a busca determinando a posição do caractere buscado.
 
 - `^` Indica o início da linha.
@@ -92,8 +98,18 @@ Um exemplo muito útil é `^.+`,  corresponde a todos os caracteres que ocorrem 
 - `\s` Um espaço em branco (dependendo do sistema de regex, pode corresponder ou não à quebra de linha; geralmente é o caso que sim.)
 - `\h` Um espaço em branco (nunca corresponde à quebra de linha).
 
-# Veja também:
+## Veja também
+
 - [Padrões úteis de RegEx](padrões úteis)
+- [Aprenda RegEx do jeito fácil](https://github.com/ziishaned/learn-regex/blob/master/translations/README-pt_BR.md)
+
+## E ainda...
+
+- [PDF Grep](https://pdfgrep.org/index.html)
+- [Regex 101](https://regex101.com)
+- [RegexOne](https://regexone.com)
+- [RegExr](https://regexr.com)
+
 
 [^1]: Em alguns casos é possível fazer com que `.` também corresponda a quebras de linha, mas esse geralmente não é o caso. No BBEdit, por exemplo, basta adicionar `(?s)` à expressão.  
 

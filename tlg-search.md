@@ -2,7 +2,7 @@ permalink: /tlg-search
 tags: TLG, Fontes primárias, 
 hashtags: #TLG, #Fontes primárias
 
-# Pesquisa no TLG
+# Como fazer buscas no TLG
 
 *Atualizado em 4 de jan. de 2021 11:28:03*
 

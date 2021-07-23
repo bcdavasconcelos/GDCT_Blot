@@ -90,3 +90,10 @@ Para facilitar as referências internas, podemos utilizar um filtro chamado [Pan
 ```
 
 Para fazer transclusões usando o pandoc, é preciso usar um [filtro adicional em lua](https://github.com/pandoc/lua-filters) no comando.  
+
+
+
+## Referências
+
+- [Plain Text, Papers, Pandoc](https://kieranhealy.org/blog/archives/2014/01/23/plain-text/)
+- [Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar](https://peerj.com/articles/cs-112/)

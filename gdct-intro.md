@@ -1,4 +1,4 @@
-	permalink: /gdct-intro
+permalink: /gdct-intro
 tags: Sobre o guia digital
 hashtags: #Sobre o guia digital#
 
@@ -10,12 +10,13 @@ hashtags: #Sobre o guia digital#
 - Para alternar entre os modos de exibição claro e escuro, clique no ícone no cabeçalho.
 
 ## Cursos sobre o guia
-- [2020/1 Minicurso Archai (UnB)](2020-1-archai)
-- [2020/1 Workshop Metodologia e Publicações Científicas (PUC)](https://www.youtube.com/watch?v=67xXqrIMhnA&list=PLsKSeZkQIHFE9RmzsdRiLtc7TQCuBCgRZ)
-- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
 
+- [2020/2 Seminário em Filosofia Antiga (UFMG)](2020-2-sem)
+- [2020/1 Workshop Metodologia e Publicações Científicas (PUC)](https://www.youtube.com/watch?v=67xXqrIMhnA&list=PLsKSeZkQIHFE9RmzsdRiLtc7TQCuBCgRZ)
+- [2020/1 Minicurso Archai (UnB)](2020-1-archai)
 
 ## Fontes primárias
+
 - [*Thesaurus Linguae Graecae*](/tlg-intro)
 - [Convertendo textos do TLG](tlg-betacode)
 - [Códigos do TLG](tlg-ref)

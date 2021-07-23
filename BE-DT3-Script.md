@@ -1,7 +1,7 @@
-tags: Automação, Bibliografia
+tags: Scripts, Bibliografia, Bookends, DEVONthink 3
 permalink: /be-dt3-sync
 
-# Script para Bookends e DEVONthink 3
+# Script para sincronizar metadados entre Bookends e DEVONthink 3
 
 <script src="prism.js"></script>
 
@@ -11,7 +11,7 @@ Script para sincronizar os metadados de uma entrada bibliográfica do Bookends c
 
 Antes de utilizar, leia com cuidado. Entenda que modificações feitas por scripts não podem ser facilmente desfeitas (você precisa ter um backup, pois não é possível simplesmente desfazer a ação). Provavelmente você terá que fazer adaptações para que ele funcione de acordo com as suas necessidades.
 
-Obs.: Há um comando no script para renomear o arquivo anexo utilizando o campo *short title* do BE ou um filtro específico que eu criei com o seguinte padrão[^1]: SOBRENOME ANO TÍTULO. *E.g.* **Long 2004 Ethics of Ontology** ou **Landor 1935 Aristotle on demonstrating essence**. No caso das traduções dos textos antigos, utilizo o padrão ABREVIAÇÃO ANO TRADUTOR, *e.g.* ***Cael* 2020 Reeve** ou ***EN* 2012 Sachs**.
+Obs.: Há um comando no script para renomear o arquivo anexo utilizando o campo *short title* do BE ou um filtro específico[^1] que eu criei com o seguinte padrão: SOBRENOME ANO TÍTULO. *E.g.* **Long 2004 Ethics of Ontology** ou **Landor 1935 Aristotle on demonstrating essence**. No caso das traduções dos textos antigos, utilizo o padrão ABREVIAÇÃO ANO TRADUTOR, *e.g.* ***Cael* 2020 Reeve** ou ***EN* 2012 Sachs**.
 
 ```language-applescript
 
